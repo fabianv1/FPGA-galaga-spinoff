@@ -1,0 +1,26 @@
+xilinx rtfpga
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][0][6]' (FDE) to 'reds_y_reg[1][0][5]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][0][5]' (FDE) to 'reds_y_reg[1][0][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][0][2]' (FDE) to 'reds_y_reg[1][0][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[1][0][3] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][8][7]' (FDE) to 'blues_y_reg[1][8][6]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][8][6]' (FDE) to 'blues_y_reg[1][8][3]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][8][5]' (FDE) to 'blues_y_reg[1][8][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][8][3]' (FDE) to 'blues_y_reg[1][8][2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[1][8][4] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][0][7]' (FDE) to 'blues_y_reg[0][0][5]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][0][6]' (FDE) to 'blues_y_reg[0][0][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][0][2]' (FDE) to 'blues_y_reg[0][0][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][0][3]' (FDE) to 'blues_y_reg[0][0][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[0][0][4] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][1][5]' (FDE) to 'blues_y_reg[1][1][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[1][1][4] )
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][4][6]' (FDE) to 'reds_y_reg[0][4][2]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][4][5]' (FDE) to 'reds_y_reg[0][4][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][4][3]' (FDE) to 'reds_y_reg[0][4][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[0][4][4] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][6][7]' (FDE) to 'blues_y_reg[0][6][5]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][6][6]' (FDE) to 'blues_y_reg[0][6][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][6][2]' (FDE) to 'blues_y_reg[0][6][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][6][3]' (FDE) to 'blues_y_reg[0][6][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[0][6][4] )

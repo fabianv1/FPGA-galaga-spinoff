@@ -1,0 +1,163 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Jan 31 11:11:30 2022
+| Host         : somonesLaptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_level_control_sets_placed.rpt
+| Design       : top_level
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    85 |
+|    Minimum number of control sets                        |    85 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   372 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    85 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |    16 |
+| >= 6 to < 8        |    13 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |    38 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    14 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             157 |          104 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              64 |           31 |
+| Yes          | No                    | No                     |             518 |          412 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             633 |          416 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+------------------------------+--------------------------------+------------------+----------------+
+|        Clock Signal        |         Enable Signal        |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------------------+------------------------------+--------------------------------+------------------+----------------+
+|  clk_divider/inst/clk_out1 |                              | display/p_0_in[2]              |                1 |              2 |
+|  clk_divider/inst/clk_out1 |                              | xvga1/hcount_out_reg[6]_79     |                1 |              4 |
+|  clk_divider/inst/clk_out1 |                              | xvga1/vcount_out_reg[9]_rep_18 |                2 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[7][8]_i_1_n_0      |                                |                2 |              4 |
+|  clk_divider/inst/clk_out1 |                              | xvga1/vcount_out_reg[8]_1      |                1 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[6][8]_i_1_n_0      |                                |                2 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[5][8]_i_1_n_0      |                                |                2 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[3][8]_i_1_n_0      |                                |                3 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[0][8]_i_1_n_0      |                                |                4 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[16][8]_i_1_n_0     |                                |                3 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[14][8]_i_1_n_0     |                                |                2 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[12][8]_i_1_n_0     |                                |                2 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[10][8]_i_1_n_0     |                                |                2 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[1][8]_i_1_n_0      |                                |                2 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[19][8]_i_1_n_0     |                                |                2 |              4 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[17][8]_i_1_n_0     |                                |                3 |              4 |
+|  clk_divider/inst/clk_out1 | db1/shot_made15811_out       | db0/SR[0]                      |                1 |              5 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[0][8]_i_1_n_0      | gp/shot_y[0][9]_i_1_n_0        |                5 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[7][8]_i_1_n_0      | gp/shot_y[7][9]_i_1_n_0        |                4 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[6][8]_i_1_n_0      | gp/shot_y[6][9]_i_1_n_0        |                4 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[3][8]_i_1_n_0      | gp/shot_y[3][9]_i_1_n_0        |                3 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[5][8]_i_1_n_0      | gp/shot_y[5][9]_i_1_n_0        |                3 |              6 |
+|  clk_divider/inst/clk_out1 | gp/attack_pointer[5]_i_2_n_0 | gp/attack_pointer[5]_i_1_n_0   |                4 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[16][8]_i_1_n_0     | gp/shot_y[16][9]_i_1_n_0       |                6 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[14][8]_i_1_n_0     | gp/shot_y[14][9]_i_1_n_0       |                4 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[1][8]_i_1_n_0      | gp/shot_y[1][9]_i_1_n_0        |                3 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[12][8]_i_1_n_0     | gp/shot_y[12][9]_i_1_n_0       |                4 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[10][8]_i_1_n_0     | gp/shot_y[10][9]_i_1_n_0       |                3 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[19][8]_i_1_n_0     | gp/shot_y[19][9]_i_1_n_0       |                6 |              6 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[17][8]_i_1_n_0     | gp/shot_y[17][9]_i_1_n_0       |                5 |              6 |
+|  clk_divider/inst/clk_out1 | db3/clean_out_reg_0          | xvga1/SR[0]                    |                6 |              8 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[9][8]_i_2_n_0      | gp/shot_y[9][8]_i_1_n_0        |                6 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][0][9]_i_2_n_0  | gp/blues_y[1][0][9]_i_1_n_0    |                7 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][2][9]_i_1_n_0  | db0/clean_out_reg_0            |                6 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][3][9]_i_1_n_0  | db0/clean_out_reg_0            |                9 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][4][9]_i_1_n_0  | db0/clean_out_reg_0            |                8 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][6][9]_i_2_n_0  | db0/clean_out_reg_0            |                7 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][5][9]_i_1_n_0  | db0/clean_out_reg_0            |               10 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][7][9]_i_1_n_0  | db0/clean_out_reg_0            |                8 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][9][9]_i_2_n_0  | gp/blues_y[1][9][9]_i_1_n_0    |                7 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][8][9]_i_2_n_0  | gp/blues_y[1][8][9]_i_1_n_0    |                6 |             10 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[11][8]_i_2_n_0     | gp/shot_y[11][8]_i_1_n_0       |                6 |             10 |
+|  clk_divider/inst/clk_out1 | gp/blues_y[1][1][9]_i_1_n_0  | db0/clean_out_reg_0            |               10 |             10 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[13][8]_i_2_n_0     | gp/shot_y[13][8]_i_1_n_0       |                5 |             10 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[15][8]_i_2_n_0     | gp/shot_y[15][8]_i_1_n_0       |                6 |             10 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[18][8]_i_2_n_0     | gp/shot_y[18][8]_i_1_n_0       |                6 |             10 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[2][8]_i_2_n_0      | gp/shot_y[2][8]_i_1_n_0        |                6 |             10 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[4][8]_i_2_n_0      | gp/shot_y[4][8]_i_1_n_0        |                6 |             10 |
+|  clk_divider/inst/clk_out1 | gp/shot_y[8][8]_i_2_n_0      | gp/shot_y[8][8]_i_1_n_0        |                7 |             10 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[12][10]_i_1_n_0    |                                |                7 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[2][10]_i_1_n_0     |                                |                6 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[5][10]_i_1_n_0     |                                |                9 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[14][10]_i_1_n_0    |                                |               11 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[10][10]_i_1_n_0    |                                |                9 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[17][10]_i_1_n_0    |                                |                7 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[11][10]_i_1_n_0    |                                |               10 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_y                    |                                |                8 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[6][10]_i_1_n_0     |                                |                9 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[1][10]_i_1_n_0     |                                |               10 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[18][10]_i_1_n_0    |                                |                9 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[16][10]_i_1_n_0    |                                |                7 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[7][10]_i_1_n_0     |                                |               11 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[15][10]_i_1_n_0    |                                |               11 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[8][10]_i_1_n_0     |                                |               10 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[0][10]_i_1_n_0     |                                |               10 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[4][10]_i_1_n_0     |                                |                7 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[13][10]_i_1_n_0    |                                |               10 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[9][10]_i_1_n_0     |                                |                8 |             11 |
+|  clk_divider/inst/clk_out1 | gp/shot_x[3][10]_i_1_n_0     |                                |               10 |             11 |
+|  clk_divider/inst/clk_out1 |                              | xvga1/vcount_out_reg[7]_rep_12 |                7 |             12 |
+|  clk_divider/inst/clk_out1 |                              | xvga1/vcount_out_reg[7]_rep_13 |                3 |             12 |
+|  clk_divider/inst/clk_out1 | gp/offset                    | gp/blues_x[0][3][8]_i_1_n_0    |               16 |             19 |
+|  clk_divider/inst/clk_out1 | db4/count                    | db0/clean_out_reg_5            |                5 |             20 |
+|  clk_divider/inst/clk_out1 | db3/count                    | db0/clean_out_reg_4            |                5 |             20 |
+|  clk_divider/inst/clk_out1 | db2/count                    | db0/clean_out_reg_3            |                5 |             20 |
+|  clk_divider/inst/clk_out1 | db1/count                    | db0/clean_out_reg_2            |                5 |             20 |
+|  clk_divider/inst/clk_out1 | db0/count                    | db0/count[0]_i_1_n_0           |                5 |             20 |
+|  clk_divider/inst/clk_out1 |                              | xvga1/hreset                   |               16 |             26 |
+|  clk_divider/inst/clk_out1 | xvga1/hreset                 | xvga1/vcount_out0              |               25 |             30 |
+|  clk_divider/inst/clk_out1 | gp/score_out[31]_i_2_n_0     | gp/score_out[31]_i_1_n_0       |                9 |             32 |
+|  clk_divider/inst/clk_out1 | gp/offset                    | gp/blues_x[0][4][0]_i_1_n_0    |               34 |             34 |
+|  clk_divider/inst/clk_out1 | gp/offset                    | gp/blues_x[0][4][10]_i_1_n_0   |               37 |             42 |
+|  clk_divider/inst/clk_out1 | gp/offset                    | gp/blues_x[1][0][9]_i_1_n_0    |               83 |            105 |
+|  clk_divider/inst/clk_out1 |                              |                                |              104 |            157 |
+|  clk_divider/inst/clk_out1 | gp/offset                    |                                |              204 |            250 |
++----------------------------+------------------------------+--------------------------------+------------------+----------------+
+
+

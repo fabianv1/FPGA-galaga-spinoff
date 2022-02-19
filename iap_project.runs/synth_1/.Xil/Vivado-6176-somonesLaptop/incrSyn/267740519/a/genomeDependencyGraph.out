@@ -1,0 +1,322 @@
+GENOME NON_GENOME PIN 105: GENOME NON_GENOME PIN 91
+GENOME NON_GENOME PIN 91: GENOME NON_GENOME PIN 105
+GENOME NON_GENOME PIN 0: GENOME NON_GENOME PIN 154
+GENOME NON_GENOME PIN 154: GENOME NON_GENOME PIN 0
+GENOME NON_GENOME PIN 62: GENOME NON_GENOME PIN 156
+GENOME NON_GENOME PIN 156: GENOME NON_GENOME PIN 62
+GENOME NON_GENOME PIN 78: GENOME NON_GENOME PIN 158
+GENOME NON_GENOME PIN 158: GENOME NON_GENOME PIN 78
+GENOME NON_GENOME PIN 159: GENOME NON_GENOME PIN 160 GENOME NON_GENOME PIN 161 GENOME NON_GENOME PIN 162 GENOME NON_GENOME PIN 163 GENOME NON_GENOME PIN 164 GENOME NON_GENOME PIN 165 GENOME NON_GENOME PIN 166 GENOME NON_GENOME PIN 167 GENOME NON_GENOME PIN 168 GENOME NON_GENOME PIN 169 GENOME NON_GENOME PIN 170
+GENOME NON_GENOME PIN 160: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 161: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 162: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 163: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 164: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 165: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 166: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 167: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 168: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 169: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 170: GENOME NON_GENOME PIN 159
+GENOME NON_GENOME PIN 95: GENOME NON_GENOME PIN 173
+GENOME NON_GENOME PIN 173: GENOME NON_GENOME PIN 95
+GENOME NON_GENOME PIN 174: GENOME NON_GENOME PIN 175 GENOME NON_GENOME PIN 176 GENOME NON_GENOME PIN 177 GENOME NON_GENOME PIN 178 GENOME NON_GENOME PIN 179 GENOME NON_GENOME PIN 180 GENOME NON_GENOME PIN 181 GENOME NON_GENOME PIN 182 GENOME NON_GENOME PIN 183 GENOME NON_GENOME PIN 184 GENOME NON_GENOME PIN 185
+GENOME NON_GENOME PIN 175: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 176: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 177: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 178: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 179: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 180: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 181: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 182: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 183: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 184: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 185: GENOME NON_GENOME PIN 174
+GENOME NON_GENOME PIN 297: GENOME NON_GENOME PIN 298 GENOME NON_GENOME PIN 299 GENOME NON_GENOME PIN 300
+GENOME NON_GENOME PIN 298: GENOME NON_GENOME PIN 297
+GENOME NON_GENOME PIN 299: GENOME NON_GENOME PIN 297
+GENOME NON_GENOME PIN 300: GENOME NON_GENOME PIN 297
+GENOME NON_GENOME PIN 309: GENOME NON_GENOME PIN 310 GENOME NON_GENOME PIN 311 GENOME NON_GENOME PIN 312
+GENOME NON_GENOME PIN 310: GENOME NON_GENOME PIN 309
+GENOME NON_GENOME PIN 311: GENOME NON_GENOME PIN 309
+GENOME NON_GENOME PIN 312: GENOME NON_GENOME PIN 309
+GENOME NON_GENOME PIN 321: GENOME NON_GENOME PIN 322 GENOME NON_GENOME PIN 323 GENOME NON_GENOME PIN 324
+GENOME NON_GENOME PIN 322: GENOME NON_GENOME PIN 321
+GENOME NON_GENOME PIN 323: GENOME NON_GENOME PIN 321
+GENOME NON_GENOME PIN 324: GENOME NON_GENOME PIN 321
+GENOME NON_GENOME PIN 333: GENOME NON_GENOME PIN 334 GENOME NON_GENOME PIN 335 GENOME NON_GENOME PIN 336
+GENOME NON_GENOME PIN 334: GENOME NON_GENOME PIN 333
+GENOME NON_GENOME PIN 335: GENOME NON_GENOME PIN 333
+GENOME NON_GENOME PIN 336: GENOME NON_GENOME PIN 333
+GENOME NON_GENOME PIN 345: GENOME NON_GENOME PIN 346 GENOME NON_GENOME PIN 347 GENOME NON_GENOME PIN 348
+GENOME NON_GENOME PIN 346: GENOME NON_GENOME PIN 345
+GENOME NON_GENOME PIN 347: GENOME NON_GENOME PIN 345
+GENOME NON_GENOME PIN 348: GENOME NON_GENOME PIN 345
+GENOME NON_GENOME PIN 357: GENOME NON_GENOME PIN 358 GENOME NON_GENOME PIN 359 GENOME NON_GENOME PIN 360
+GENOME NON_GENOME PIN 358: GENOME NON_GENOME PIN 357
+GENOME NON_GENOME PIN 359: GENOME NON_GENOME PIN 357
+GENOME NON_GENOME PIN 360: GENOME NON_GENOME PIN 357
+GENOME NON_GENOME PIN 369: GENOME NON_GENOME PIN 370 GENOME NON_GENOME PIN 371 GENOME NON_GENOME PIN 372
+GENOME NON_GENOME PIN 370: GENOME NON_GENOME PIN 369
+GENOME NON_GENOME PIN 371: GENOME NON_GENOME PIN 369
+GENOME NON_GENOME PIN 372: GENOME NON_GENOME PIN 369
+GENOME NON_GENOME PIN 381: GENOME NON_GENOME PIN 382 GENOME NON_GENOME PIN 383 GENOME NON_GENOME PIN 384
+GENOME NON_GENOME PIN 382: GENOME NON_GENOME PIN 381
+GENOME NON_GENOME PIN 383: GENOME NON_GENOME PIN 381
+GENOME NON_GENOME PIN 384: GENOME NON_GENOME PIN 381
+INST gameplay_screen__GB8 PIN 196: INST gameplay_screen__GB6 PIN 492 TYPE 0 INST gameplay_screen__GB4 PIN 535 TYPE 0 GENOME gameplay_screen__GB8 PIN 196
+INST gameplay_screen__GB8 PIN 197: INST gameplay_screen__GB6 PIN 493 TYPE 0 INST gameplay_screen__GB4 PIN 536 TYPE 0 GENOME gameplay_screen__GB8 PIN 197
+INST gameplay_screen__GB8 PIN 198: INST gameplay_screen__GB6 PIN 494 TYPE 1 INST gameplay_screen__GB4 PIN 537 TYPE 1 GENOME gameplay_screen__GB8 PIN 198
+INST gameplay_screen__GB8 PIN 199: INST gameplay_screen__GB6 PIN 495 TYPE 0 INST gameplay_screen__GB4 PIN 538 TYPE 0 GENOME gameplay_screen__GB8 PIN 199
+INST gameplay_screen__GB8 PIN 200: INST gameplay_screen__GB6 PIN 496 TYPE 1 INST gameplay_screen__GB4 PIN 539 TYPE 1 GENOME gameplay_screen__GB8 PIN 200
+INST gameplay_screen__GB8 PIN 201: INST gameplay_screen__GB6 PIN 497 TYPE 0 INST gameplay_screen__GB4 PIN 540 TYPE 0 GENOME gameplay_screen__GB8 PIN 201
+INST gameplay_screen__GB8 PIN 202: INST gameplay_screen__GB6 PIN 498 TYPE 0 INST gameplay_screen__GB4 PIN 541 TYPE 0 GENOME gameplay_screen__GB8 PIN 202
+INST gameplay_screen__GB8 PIN 203: INST gameplay_screen__GB6 PIN 499 TYPE 1 INST gameplay_screen__GB4 PIN 542 TYPE 1 GENOME gameplay_screen__GB8 PIN 203
+INST gameplay_screen__GB8 PIN 204: INST gameplay_screen__GB6 PIN 500 TYPE 0 INST gameplay_screen__GB4 PIN 543 TYPE 0 GENOME gameplay_screen__GB8 PIN 204
+INST gameplay_screen__GB8 PIN 205: INST gameplay_screen__GB6 PIN 501 TYPE 1 INST gameplay_screen__GB4 PIN 544 TYPE 1 GENOME gameplay_screen__GB8 PIN 205
+INST gameplay_screen__GB8 PIN 206: INST gameplay_screen__GB6 PIN 502 TYPE 0 INST gameplay_screen__GB4 PIN 545 TYPE 0 GENOME gameplay_screen__GB8 PIN 206
+INST gameplay_screen__GB8 PIN 208: INST gameplay_screen__GB6 PIN 503 TYPE 0 INST gameplay_screen__GB4 PIN 557 TYPE 0 GENOME gameplay_screen__GB8 PIN 208
+INST gameplay_screen__GB8 PIN 209: INST gameplay_screen__GB6 PIN 504 TYPE 0 INST gameplay_screen__GB4 PIN 558 TYPE 0 GENOME gameplay_screen__GB8 PIN 209
+INST gameplay_screen__GB8 PIN 210: INST gameplay_screen__GB6 PIN 505 TYPE 0 INST gameplay_screen__GB4 PIN 559 TYPE 0 GENOME gameplay_screen__GB8 PIN 210
+INST gameplay_screen__GB8 PIN 211: INST gameplay_screen__GB6 PIN 506 TYPE 1 INST gameplay_screen__GB4 PIN 560 TYPE 1 GENOME gameplay_screen__GB8 PIN 211
+INST gameplay_screen__GB8 PIN 212: INST gameplay_screen__GB6 PIN 507 TYPE 1 INST gameplay_screen__GB4 PIN 561 TYPE 1 GENOME gameplay_screen__GB8 PIN 212
+INST gameplay_screen__GB8 PIN 213: INST gameplay_screen__GB6 PIN 508 TYPE 1 INST gameplay_screen__GB4 PIN 562 TYPE 1 GENOME gameplay_screen__GB8 PIN 213
+INST gameplay_screen__GB8 PIN 214: INST gameplay_screen__GB6 PIN 509 TYPE 1 INST gameplay_screen__GB4 PIN 563 TYPE 1 GENOME gameplay_screen__GB8 PIN 214
+INST gameplay_screen__GB8 PIN 215: INST gameplay_screen__GB6 PIN 510 TYPE 0 INST gameplay_screen__GB4 PIN 564 TYPE 0 GENOME gameplay_screen__GB8 PIN 215
+INST gameplay_screen__GB8 PIN 216: INST gameplay_screen__GB6 PIN 511 TYPE 0 INST gameplay_screen__GB4 PIN 565 TYPE 0 GENOME gameplay_screen__GB8 PIN 216
+INST gameplay_screen__GB8 PIN 217: INST gameplay_screen__GB6 PIN 512 TYPE 0 INST gameplay_screen__GB4 PIN 566 TYPE 0 GENOME gameplay_screen__GB8 PIN 217
+INST gameplay_screen__GB8 PIN 218: INST gameplay_screen__GB6 PIN 513 TYPE 0 INST gameplay_screen__GB4 PIN 567 TYPE 0 GENOME gameplay_screen__GB8 PIN 218
+INST gameplay_screen__GB8 PIN 19: INST gameplay_screen__GB3 PIN 281 TYPE 0 GENOME gameplay_screen__GB8 PIN 19
+INST gameplay_screen__GB8 PIN 20: INST gameplay_screen__GB3 PIN 282 TYPE 0 GENOME gameplay_screen__GB8 PIN 20
+INST gameplay_screen__GB8 PIN 21: INST gameplay_screen__GB3 PIN 283 TYPE 0 GENOME gameplay_screen__GB8 PIN 21
+INST gameplay_screen__GB8 PIN 22: INST gameplay_screen__GB3 PIN 284 TYPE 0 GENOME gameplay_screen__GB8 PIN 22
+INST gameplay_screen__GB8 PIN 23: INST gameplay_screen__GB3 PIN 285 TYPE 1 GENOME gameplay_screen__GB8 PIN 23
+INST gameplay_screen__GB8 PIN 24: INST gameplay_screen__GB3 PIN 286 TYPE 0 GENOME gameplay_screen__GB8 PIN 24
+INST gameplay_screen__GB8 PIN 25: INST gameplay_screen__GB3 PIN 287 TYPE 1 GENOME gameplay_screen__GB8 PIN 25
+INST gameplay_screen__GB8 PIN 26: INST gameplay_screen__GB3 PIN 288 TYPE 0 GENOME gameplay_screen__GB8 PIN 26
+INST gameplay_screen__GB8 PIN 27: INST gameplay_screen__GB3 PIN 289 TYPE 0 GENOME gameplay_screen__GB8 PIN 27
+INST gameplay_screen__GB8 PIN 28: INST gameplay_screen__GB3 PIN 290 TYPE 0 GENOME gameplay_screen__GB8 PIN 28
+INST gameplay_screen__GB8 PIN 41: INST gameplay_screen__GB3 PIN 291 TYPE 0 GENOME gameplay_screen__GB8 PIN 41
+INST gameplay_screen__GB8 PIN 42: INST gameplay_screen__GB3 PIN 292 TYPE 0 GENOME gameplay_screen__GB8 PIN 42
+INST gameplay_screen__GB8 PIN 43: INST gameplay_screen__GB3 PIN 293 TYPE 1 GENOME gameplay_screen__GB8 PIN 43
+INST gameplay_screen__GB8 PIN 44: INST gameplay_screen__GB3 PIN 294 TYPE 0 GENOME gameplay_screen__GB8 PIN 44
+INST gameplay_screen__GB8 PIN 45: INST gameplay_screen__GB3 PIN 295 TYPE 0 GENOME gameplay_screen__GB8 PIN 45
+INST gameplay_screen__GB8 PIN 46: INST gameplay_screen__GB3 PIN 296 TYPE 0 GENOME gameplay_screen__GB8 PIN 46
+INST gameplay_screen__GB8 PIN 47: INST gameplay_screen__GB3 PIN 297 TYPE 0 GENOME gameplay_screen__GB8 PIN 47
+INST gameplay_screen__GB8 PIN 48: INST gameplay_screen__GB3 PIN 298 TYPE 0 GENOME gameplay_screen__GB8 PIN 48
+INST gameplay_screen__GB8 PIN 49: INST gameplay_screen__GB3 PIN 299 TYPE 1 GENOME gameplay_screen__GB8 PIN 49
+INST gameplay_screen__GB8 PIN 50: INST gameplay_screen__GB3 PIN 300 TYPE 0 GENOME gameplay_screen__GB8 PIN 50
+INST gameplay_screen__GB8 PIN 254: INST gameplay_screen__GB5 PIN 455 TYPE 0 INST gameplay_screen__GB4 PIN 590 TYPE 0 GENOME gameplay_screen__GB8 PIN 254
+INST gameplay_screen__GB8 PIN 255: INST gameplay_screen__GB5 PIN 456 TYPE 0 INST gameplay_screen__GB4 PIN 591 TYPE 0 GENOME gameplay_screen__GB8 PIN 255
+INST gameplay_screen__GB8 PIN 256: INST gameplay_screen__GB5 PIN 457 TYPE 0 INST gameplay_screen__GB4 PIN 592 TYPE 0 GENOME gameplay_screen__GB8 PIN 256
+INST gameplay_screen__GB8 PIN 257: INST gameplay_screen__GB5 PIN 458 TYPE 1 INST gameplay_screen__GB4 PIN 593 TYPE 1 GENOME gameplay_screen__GB8 PIN 257
+INST gameplay_screen__GB8 PIN 258: INST gameplay_screen__GB5 PIN 459 TYPE 0 INST gameplay_screen__GB4 PIN 594 TYPE 0 GENOME gameplay_screen__GB8 PIN 258
+INST gameplay_screen__GB8 PIN 259: INST gameplay_screen__GB5 PIN 460 TYPE 0 INST gameplay_screen__GB4 PIN 595 TYPE 0 GENOME gameplay_screen__GB8 PIN 259
+INST gameplay_screen__GB8 PIN 260: INST gameplay_screen__GB5 PIN 461 TYPE 1 INST gameplay_screen__GB4 PIN 596 TYPE 1 GENOME gameplay_screen__GB8 PIN 260
+INST gameplay_screen__GB8 PIN 261: INST gameplay_screen__GB5 PIN 462 TYPE 0 INST gameplay_screen__GB4 PIN 597 TYPE 0 GENOME gameplay_screen__GB8 PIN 261
+INST gameplay_screen__GB8 PIN 262: INST gameplay_screen__GB5 PIN 463 TYPE 1 INST gameplay_screen__GB4 PIN 598 TYPE 1 GENOME gameplay_screen__GB8 PIN 262
+INST gameplay_screen__GB8 PIN 263: INST gameplay_screen__GB5 PIN 464 TYPE 1 INST gameplay_screen__GB4 PIN 599 TYPE 1 GENOME gameplay_screen__GB8 PIN 263
+INST gameplay_screen__GB8 PIN 264: INST gameplay_screen__GB5 PIN 465 TYPE 0 INST gameplay_screen__GB4 PIN 600 TYPE 0 GENOME gameplay_screen__GB8 PIN 264
+INST gameplay_screen__GB8 PIN 286: INST gameplay_screen__GB5 PIN 466 TYPE 0 INST gameplay_screen__GB4 PIN 612 TYPE 0 GENOME gameplay_screen__GB8 PIN 286
+INST gameplay_screen__GB8 PIN 287: INST gameplay_screen__GB5 PIN 467 TYPE 0 INST gameplay_screen__GB4 PIN 613 TYPE 0 GENOME gameplay_screen__GB8 PIN 287
+INST gameplay_screen__GB8 PIN 288: INST gameplay_screen__GB5 PIN 468 TYPE 0 INST gameplay_screen__GB4 PIN 614 TYPE 0 GENOME gameplay_screen__GB8 PIN 288
+INST gameplay_screen__GB8 PIN 289: INST gameplay_screen__GB5 PIN 469 TYPE 0 INST gameplay_screen__GB4 PIN 615 TYPE 0 GENOME gameplay_screen__GB8 PIN 289
+INST gameplay_screen__GB8 PIN 290: INST gameplay_screen__GB5 PIN 470 TYPE 0 INST gameplay_screen__GB4 PIN 616 TYPE 0 GENOME gameplay_screen__GB8 PIN 290
+INST gameplay_screen__GB8 PIN 291: INST gameplay_screen__GB5 PIN 471 TYPE 1 INST gameplay_screen__GB4 PIN 617 TYPE 1 GENOME gameplay_screen__GB8 PIN 291
+INST gameplay_screen__GB8 PIN 292: INST gameplay_screen__GB5 PIN 472 TYPE 1 INST gameplay_screen__GB4 PIN 618 TYPE 1 GENOME gameplay_screen__GB8 PIN 292
+INST gameplay_screen__GB8 PIN 293: INST gameplay_screen__GB5 PIN 473 TYPE 1 INST gameplay_screen__GB4 PIN 619 TYPE 1 GENOME gameplay_screen__GB8 PIN 293
+INST gameplay_screen__GB8 PIN 294: INST gameplay_screen__GB5 PIN 474 TYPE 1 INST gameplay_screen__GB4 PIN 620 TYPE 1 GENOME gameplay_screen__GB8 PIN 294
+INST gameplay_screen__GB8 PIN 295: INST gameplay_screen__GB5 PIN 475 TYPE 0 INST gameplay_screen__GB4 PIN 621 TYPE 0 GENOME gameplay_screen__GB8 PIN 295
+INST gameplay_screen__GB8 PIN 296: INST gameplay_screen__GB5 PIN 476 TYPE 0 INST gameplay_screen__GB4 PIN 622 TYPE 0 GENOME gameplay_screen__GB8 PIN 296
+INST gameplay_screen__GB8 PIN 2: INST gameplay_screen__GB3 PIN 536 TYPE 0 GENOME gameplay_screen__GB8 PIN 2
+INST gameplay_screen__GB8 PIN 3: INST gameplay_screen__GB3 PIN 537 TYPE 0 GENOME gameplay_screen__GB8 PIN 3
+INST gameplay_screen__GB8 PIN 4: INST gameplay_screen__GB3 PIN 538 TYPE 1 GENOME gameplay_screen__GB8 PIN 4
+INST gameplay_screen__GB8 PIN 5: INST gameplay_screen__GB3 PIN 539 TYPE 1 GENOME gameplay_screen__GB8 PIN 5
+INST gameplay_screen__GB8 PIN 6: INST gameplay_screen__GB3 PIN 540 TYPE 0 GENOME gameplay_screen__GB8 PIN 6
+INST gameplay_screen__GB8 PIN 7: INST gameplay_screen__GB3 PIN 541 TYPE 1 GENOME gameplay_screen__GB8 PIN 7
+INST gameplay_screen__GB8 PIN 8: INST gameplay_screen__GB3 PIN 542 TYPE 1 GENOME gameplay_screen__GB8 PIN 8
+INST gameplay_screen__GB8 PIN 9: INST gameplay_screen__GB3 PIN 543 TYPE 1 GENOME gameplay_screen__GB8 PIN 9
+INST gameplay_screen__GB8 PIN 10: INST gameplay_screen__GB3 PIN 544 TYPE 0 GENOME gameplay_screen__GB8 PIN 10
+INST gameplay_screen__GB8 PIN 11: INST gameplay_screen__GB3 PIN 545 TYPE 0 GENOME gameplay_screen__GB8 PIN 11
+INST gameplay_screen__GB8 PIN 52: INST gameplay_screen__GB3 PIN 574 TYPE 0 GENOME gameplay_screen__GB8 PIN 52
+INST gameplay_screen__GB8 PIN 53: INST gameplay_screen__GB3 PIN 575 TYPE 0 GENOME gameplay_screen__GB8 PIN 53
+INST gameplay_screen__GB8 PIN 54: INST gameplay_screen__GB3 PIN 576 TYPE 1 GENOME gameplay_screen__GB8 PIN 54
+INST gameplay_screen__GB8 PIN 55: INST gameplay_screen__GB3 PIN 577 TYPE 0 GENOME gameplay_screen__GB8 PIN 55
+INST gameplay_screen__GB8 PIN 56: INST gameplay_screen__GB3 PIN 578 TYPE 1 GENOME gameplay_screen__GB8 PIN 56
+INST gameplay_screen__GB8 PIN 57: INST gameplay_screen__GB3 PIN 579 TYPE 0 GENOME gameplay_screen__GB8 PIN 57
+INST gameplay_screen__GB8 PIN 58: INST gameplay_screen__GB3 PIN 580 TYPE 1 GENOME gameplay_screen__GB8 PIN 58
+INST gameplay_screen__GB8 PIN 59: INST gameplay_screen__GB3 PIN 581 TYPE 1 GENOME gameplay_screen__GB8 PIN 59
+INST gameplay_screen__GB8 PIN 60: INST gameplay_screen__GB3 PIN 582 TYPE 1 GENOME gameplay_screen__GB8 PIN 60
+INST gameplay_screen__GB8 PIN 61: INST gameplay_screen__GB3 PIN 583 TYPE 1 GENOME gameplay_screen__GB8 PIN 61
+INST gameplay_screen__GB8 PIN 321: INST gameplay_screen__GB8 PIN 322 TYPE 2 INST gameplay_screen__GB7 PIN 673 TYPE 4 INST gameplay_screen__GB8 PIN 323 TYPE 2 INST gameplay_screen__GB7 PIN 674 TYPE 4 INST gameplay_screen__GB8 PIN 324 TYPE 2 INST gameplay_screen__GB7 PIN 675 TYPE 4
+INST gameplay_screen__GB8 PIN 325: INST gameplay_screen__GB7 PIN 676 TYPE 0 GENOME gameplay_screen__GB8 PIN 325
+INST gameplay_screen__GB8 PIN 326: INST gameplay_screen__GB7 PIN 677 TYPE 0 GENOME gameplay_screen__GB8 PIN 326
+INST gameplay_screen__GB8 PIN 327: INST gameplay_screen__GB7 PIN 678 TYPE 0 GENOME gameplay_screen__GB8 PIN 327
+INST gameplay_screen__GB8 PIN 328: INST gameplay_screen__GB7 PIN 679 TYPE 0 GENOME gameplay_screen__GB8 PIN 328
+INST gameplay_screen__GB8 PIN 329: INST gameplay_screen__GB7 PIN 680 TYPE 0 GENOME gameplay_screen__GB8 PIN 329
+INST gameplay_screen__GB8 PIN 330: INST gameplay_screen__GB7 PIN 681 TYPE 0 GENOME gameplay_screen__GB8 PIN 330
+INST gameplay_screen__GB8 PIN 331: INST gameplay_screen__GB7 PIN 682 TYPE 0 GENOME gameplay_screen__GB8 PIN 331
+INST gameplay_screen__GB8 PIN 332: INST gameplay_screen__GB7 PIN 683 TYPE 0 GENOME gameplay_screen__GB8 PIN 332
+INST gameplay_screen__GB8 PIN 357: INST gameplay_screen__GB8 PIN 358 TYPE 2 INST gameplay_screen__GB7 PIN 685 TYPE 4 INST gameplay_screen__GB8 PIN 359 TYPE 2 INST gameplay_screen__GB7 PIN 686 TYPE 4 INST gameplay_screen__GB8 PIN 360 TYPE 2 INST gameplay_screen__GB7 PIN 687 TYPE 4
+INST gameplay_screen__GB8 PIN 361: INST gameplay_screen__GB7 PIN 688 TYPE 0 GENOME gameplay_screen__GB8 PIN 361
+INST gameplay_screen__GB8 PIN 362: INST gameplay_screen__GB7 PIN 689 TYPE 0 GENOME gameplay_screen__GB8 PIN 362
+INST gameplay_screen__GB8 PIN 363: INST gameplay_screen__GB7 PIN 690 TYPE 0 GENOME gameplay_screen__GB8 PIN 363
+INST gameplay_screen__GB8 PIN 364: INST gameplay_screen__GB7 PIN 691 TYPE 0 GENOME gameplay_screen__GB8 PIN 364
+INST gameplay_screen__GB8 PIN 365: INST gameplay_screen__GB7 PIN 692 TYPE 0 GENOME gameplay_screen__GB8 PIN 365
+INST gameplay_screen__GB8 PIN 366: INST gameplay_screen__GB7 PIN 693 TYPE 0 GENOME gameplay_screen__GB8 PIN 366
+INST gameplay_screen__GB8 PIN 367: INST gameplay_screen__GB7 PIN 694 TYPE 0 GENOME gameplay_screen__GB8 PIN 367
+INST gameplay_screen__GB8 PIN 368: INST gameplay_screen__GB7 PIN 695 TYPE 0 GENOME gameplay_screen__GB8 PIN 368
+INST gameplay_screen__GB8 PIN 333: INST gameplay_screen__GB8 PIN 334 TYPE 2 INST gameplay_screen__GB7 PIN 697 TYPE 4 INST gameplay_screen__GB8 PIN 335 TYPE 2 INST gameplay_screen__GB7 PIN 698 TYPE 4 INST gameplay_screen__GB8 PIN 336 TYPE 2 INST gameplay_screen__GB7 PIN 699 TYPE 4
+INST gameplay_screen__GB8 PIN 337: INST gameplay_screen__GB7 PIN 700 TYPE 0 GENOME gameplay_screen__GB8 PIN 337
+INST gameplay_screen__GB8 PIN 338: INST gameplay_screen__GB7 PIN 701 TYPE 0 GENOME gameplay_screen__GB8 PIN 338
+INST gameplay_screen__GB8 PIN 339: INST gameplay_screen__GB7 PIN 702 TYPE 0 GENOME gameplay_screen__GB8 PIN 339
+INST gameplay_screen__GB8 PIN 340: INST gameplay_screen__GB7 PIN 703 TYPE 0 GENOME gameplay_screen__GB8 PIN 340
+INST gameplay_screen__GB8 PIN 341: INST gameplay_screen__GB7 PIN 704 TYPE 0 GENOME gameplay_screen__GB8 PIN 341
+INST gameplay_screen__GB8 PIN 342: INST gameplay_screen__GB7 PIN 705 TYPE 0 GENOME gameplay_screen__GB8 PIN 342
+INST gameplay_screen__GB8 PIN 343: INST gameplay_screen__GB7 PIN 706 TYPE 0 GENOME gameplay_screen__GB8 PIN 343
+INST gameplay_screen__GB8 PIN 344: INST gameplay_screen__GB7 PIN 707 TYPE 0 GENOME gameplay_screen__GB8 PIN 344
+INST gameplay_screen__GB8 PIN 369: INST gameplay_screen__GB8 PIN 370 TYPE 2 INST gameplay_screen__GB7 PIN 709 TYPE 4 INST gameplay_screen__GB8 PIN 371 TYPE 2 INST gameplay_screen__GB7 PIN 710 TYPE 4 INST gameplay_screen__GB8 PIN 372 TYPE 2 INST gameplay_screen__GB7 PIN 711 TYPE 4
+INST gameplay_screen__GB8 PIN 373: INST gameplay_screen__GB7 PIN 712 TYPE 0 GENOME gameplay_screen__GB8 PIN 373
+INST gameplay_screen__GB8 PIN 374: INST gameplay_screen__GB7 PIN 713 TYPE 0 GENOME gameplay_screen__GB8 PIN 374
+INST gameplay_screen__GB8 PIN 375: INST gameplay_screen__GB7 PIN 714 TYPE 0 GENOME gameplay_screen__GB8 PIN 375
+INST gameplay_screen__GB8 PIN 376: INST gameplay_screen__GB7 PIN 715 TYPE 0 GENOME gameplay_screen__GB8 PIN 376
+INST gameplay_screen__GB8 PIN 377: INST gameplay_screen__GB7 PIN 716 TYPE 0 GENOME gameplay_screen__GB8 PIN 377
+INST gameplay_screen__GB8 PIN 378: INST gameplay_screen__GB7 PIN 717 TYPE 0 GENOME gameplay_screen__GB8 PIN 378
+INST gameplay_screen__GB8 PIN 379: INST gameplay_screen__GB7 PIN 718 TYPE 0 GENOME gameplay_screen__GB8 PIN 379
+INST gameplay_screen__GB8 PIN 380: INST gameplay_screen__GB7 PIN 719 TYPE 0 GENOME gameplay_screen__GB8 PIN 380
+INST gameplay_screen__GB8 PIN 345: INST gameplay_screen__GB8 PIN 346 TYPE 2 INST gameplay_screen__GB7 PIN 723 TYPE 4 INST gameplay_screen__GB8 PIN 347 TYPE 2 INST gameplay_screen__GB7 PIN 724 TYPE 4 INST gameplay_screen__GB8 PIN 348 TYPE 2 INST gameplay_screen__GB7 PIN 725 TYPE 4
+INST gameplay_screen__GB8 PIN 349: INST gameplay_screen__GB7 PIN 726 TYPE 0 GENOME gameplay_screen__GB8 PIN 349
+INST gameplay_screen__GB8 PIN 350: INST gameplay_screen__GB7 PIN 727 TYPE 0 GENOME gameplay_screen__GB8 PIN 350
+INST gameplay_screen__GB8 PIN 351: INST gameplay_screen__GB7 PIN 728 TYPE 0 GENOME gameplay_screen__GB8 PIN 351
+INST gameplay_screen__GB8 PIN 352: INST gameplay_screen__GB7 PIN 729 TYPE 0 GENOME gameplay_screen__GB8 PIN 352
+INST gameplay_screen__GB8 PIN 353: INST gameplay_screen__GB7 PIN 730 TYPE 0 GENOME gameplay_screen__GB8 PIN 353
+INST gameplay_screen__GB8 PIN 354: INST gameplay_screen__GB7 PIN 731 TYPE 0 GENOME gameplay_screen__GB8 PIN 354
+INST gameplay_screen__GB8 PIN 355: INST gameplay_screen__GB7 PIN 732 TYPE 0 GENOME gameplay_screen__GB8 PIN 355
+INST gameplay_screen__GB8 PIN 356: INST gameplay_screen__GB7 PIN 733 TYPE 0 GENOME gameplay_screen__GB8 PIN 356
+INST gameplay_screen__GB8 PIN 381: INST gameplay_screen__GB8 PIN 382 TYPE 2 INST gameplay_screen__GB7 PIN 735 TYPE 4 INST gameplay_screen__GB8 PIN 383 TYPE 2 INST gameplay_screen__GB7 PIN 736 TYPE 4 INST gameplay_screen__GB8 PIN 384 TYPE 2 INST gameplay_screen__GB7 PIN 737 TYPE 4
+INST gameplay_screen__GB8 PIN 385: INST gameplay_screen__GB7 PIN 738 TYPE 0 GENOME gameplay_screen__GB8 PIN 385
+INST gameplay_screen__GB8 PIN 386: INST gameplay_screen__GB7 PIN 739 TYPE 0 GENOME gameplay_screen__GB8 PIN 386
+INST gameplay_screen__GB8 PIN 387: INST gameplay_screen__GB7 PIN 740 TYPE 0 GENOME gameplay_screen__GB8 PIN 387
+INST gameplay_screen__GB8 PIN 388: INST gameplay_screen__GB7 PIN 741 TYPE 0 GENOME gameplay_screen__GB8 PIN 388
+INST gameplay_screen__GB8 PIN 389: INST gameplay_screen__GB7 PIN 742 TYPE 0 GENOME gameplay_screen__GB8 PIN 389
+INST gameplay_screen__GB8 PIN 390: INST gameplay_screen__GB7 PIN 743 TYPE 0 GENOME gameplay_screen__GB8 PIN 390
+INST gameplay_screen__GB8 PIN 391: INST gameplay_screen__GB7 PIN 744 TYPE 0 GENOME gameplay_screen__GB8 PIN 391
+INST gameplay_screen__GB8 PIN 392: INST gameplay_screen__GB7 PIN 745 TYPE 0 GENOME gameplay_screen__GB8 PIN 392
+INST gameplay_screen__GB8 PIN 297: INST gameplay_screen__GB8 PIN 298 TYPE 2 INST gameplay_screen__GB7 PIN 795 TYPE 4 INST gameplay_screen__GB8 PIN 299 TYPE 2 INST gameplay_screen__GB7 PIN 796 TYPE 4 INST gameplay_screen__GB8 PIN 300 TYPE 2 INST gameplay_screen__GB7 PIN 797 TYPE 4
+INST gameplay_screen__GB8 PIN 301: INST gameplay_screen__GB7 PIN 798 TYPE 0 GENOME gameplay_screen__GB8 PIN 301
+INST gameplay_screen__GB8 PIN 302: INST gameplay_screen__GB7 PIN 799 TYPE 0 GENOME gameplay_screen__GB8 PIN 302
+INST gameplay_screen__GB8 PIN 303: INST gameplay_screen__GB7 PIN 800 TYPE 0 GENOME gameplay_screen__GB8 PIN 303
+INST gameplay_screen__GB8 PIN 304: INST gameplay_screen__GB7 PIN 801 TYPE 0 GENOME gameplay_screen__GB8 PIN 304
+INST gameplay_screen__GB8 PIN 305: INST gameplay_screen__GB7 PIN 802 TYPE 0 GENOME gameplay_screen__GB8 PIN 305
+INST gameplay_screen__GB8 PIN 306: INST gameplay_screen__GB7 PIN 803 TYPE 0 GENOME gameplay_screen__GB8 PIN 306
+INST gameplay_screen__GB8 PIN 307: INST gameplay_screen__GB7 PIN 804 TYPE 0 GENOME gameplay_screen__GB8 PIN 307
+INST gameplay_screen__GB8 PIN 308: INST gameplay_screen__GB7 PIN 805 TYPE 0 GENOME gameplay_screen__GB8 PIN 308
+INST gameplay_screen__GB8 PIN 309: INST gameplay_screen__GB8 PIN 310 TYPE 2 INST gameplay_screen__GB7 PIN 807 TYPE 4 INST gameplay_screen__GB8 PIN 311 TYPE 2 INST gameplay_screen__GB7 PIN 808 TYPE 4 INST gameplay_screen__GB8 PIN 312 TYPE 2 INST gameplay_screen__GB7 PIN 809 TYPE 4
+INST gameplay_screen__GB8 PIN 313: INST gameplay_screen__GB7 PIN 810 TYPE 0 GENOME gameplay_screen__GB8 PIN 313
+INST gameplay_screen__GB8 PIN 314: INST gameplay_screen__GB7 PIN 811 TYPE 0 GENOME gameplay_screen__GB8 PIN 314
+INST gameplay_screen__GB8 PIN 315: INST gameplay_screen__GB7 PIN 812 TYPE 0 GENOME gameplay_screen__GB8 PIN 315
+INST gameplay_screen__GB8 PIN 316: INST gameplay_screen__GB7 PIN 813 TYPE 0 GENOME gameplay_screen__GB8 PIN 316
+INST gameplay_screen__GB8 PIN 317: INST gameplay_screen__GB7 PIN 814 TYPE 0 GENOME gameplay_screen__GB8 PIN 317
+INST gameplay_screen__GB8 PIN 318: INST gameplay_screen__GB7 PIN 815 TYPE 0 GENOME gameplay_screen__GB8 PIN 318
+INST gameplay_screen__GB8 PIN 319: INST gameplay_screen__GB7 PIN 816 TYPE 0 GENOME gameplay_screen__GB8 PIN 319
+INST gameplay_screen__GB8 PIN 320: INST gameplay_screen__GB7 PIN 817 TYPE 0 GENOME gameplay_screen__GB8 PIN 320
+INST gameplay_screen__GB8 PIN 159: INST gameplay_screen__GB8 PIN 160 TYPE 2 INST gameplay_screen__GB4 PIN 275 TYPE 4 INST gameplay_screen__GB8 PIN 161 TYPE 2 INST gameplay_screen__GB4 PIN 276 TYPE 4 INST gameplay_screen__GB8 PIN 162 TYPE 2 INST gameplay_screen__GB4 PIN 277 TYPE 4 INST gameplay_screen__GB8 PIN 163 TYPE 2 INST gameplay_screen__GB4 PIN 278 TYPE 4 INST gameplay_screen__GB8 PIN 164 TYPE 2 INST gameplay_screen__GB4 PIN 279 TYPE 4 INST gameplay_screen__GB8 PIN 165 TYPE 2 INST gameplay_screen__GB4 PIN 280 TYPE 4 INST gameplay_screen__GB8 PIN 166 TYPE 2 INST gameplay_screen__GB4 PIN 281 TYPE 4 INST gameplay_screen__GB8 PIN 167 TYPE 2 INST gameplay_screen__GB4 PIN 282 TYPE 4 INST gameplay_screen__GB8 PIN 168 TYPE 2 INST gameplay_screen__GB4 PIN 283 TYPE 4 INST gameplay_screen__GB8 PIN 169 TYPE 2 INST gameplay_screen__GB4 PIN 284 TYPE 4 INST gameplay_screen__GB8 PIN 170 TYPE 2 INST gameplay_screen__GB4 PIN 285 TYPE 4
+INST gameplay_screen__GB8 PIN 174: INST gameplay_screen__GB8 PIN 175 TYPE 2 INST gameplay_screen__GB4 PIN 311 TYPE 4 INST gameplay_screen__GB8 PIN 176 TYPE 2 INST gameplay_screen__GB4 PIN 312 TYPE 4 INST gameplay_screen__GB8 PIN 177 TYPE 2 INST gameplay_screen__GB4 PIN 313 TYPE 4 INST gameplay_screen__GB8 PIN 178 TYPE 2 INST gameplay_screen__GB4 PIN 314 TYPE 4 INST gameplay_screen__GB8 PIN 179 TYPE 2 INST gameplay_screen__GB4 PIN 315 TYPE 4 INST gameplay_screen__GB8 PIN 180 TYPE 2 INST gameplay_screen__GB4 PIN 316 TYPE 4 INST gameplay_screen__GB8 PIN 181 TYPE 2 INST gameplay_screen__GB4 PIN 317 TYPE 4 INST gameplay_screen__GB8 PIN 182 TYPE 2 INST gameplay_screen__GB4 PIN 318 TYPE 4 INST gameplay_screen__GB8 PIN 183 TYPE 2 INST gameplay_screen__GB4 PIN 319 TYPE 4 INST gameplay_screen__GB8 PIN 184 TYPE 2 INST gameplay_screen__GB4 PIN 320 TYPE 4 INST gameplay_screen__GB8 PIN 185 TYPE 2 INST gameplay_screen__GB4 PIN 321 TYPE 4
+INST gameplay_screen__GB8 PIN 276: INST gameplay_screen__GB4 PIN 464 TYPE 0 GENOME gameplay_screen__GB8 PIN 276
+INST gameplay_screen__GB8 PIN 277: INST gameplay_screen__GB4 PIN 465 TYPE 0 GENOME gameplay_screen__GB8 PIN 277
+INST gameplay_screen__GB8 PIN 278: INST gameplay_screen__GB4 PIN 466 TYPE 1 GENOME gameplay_screen__GB8 PIN 278
+INST gameplay_screen__GB8 PIN 279: INST gameplay_screen__GB4 PIN 467 TYPE 0 GENOME gameplay_screen__GB8 PIN 279
+INST gameplay_screen__GB8 PIN 280: INST gameplay_screen__GB4 PIN 468 TYPE 1 GENOME gameplay_screen__GB8 PIN 280
+INST gameplay_screen__GB8 PIN 281: INST gameplay_screen__GB4 PIN 469 TYPE 1 GENOME gameplay_screen__GB8 PIN 281
+INST gameplay_screen__GB8 PIN 282: INST gameplay_screen__GB4 PIN 470 TYPE 1 GENOME gameplay_screen__GB8 PIN 282
+INST gameplay_screen__GB8 PIN 283: INST gameplay_screen__GB4 PIN 471 TYPE 1 GENOME gameplay_screen__GB8 PIN 283
+INST gameplay_screen__GB8 PIN 284: INST gameplay_screen__GB4 PIN 472 TYPE 1 GENOME gameplay_screen__GB8 PIN 284
+INST gameplay_screen__GB8 PIN 285: INST gameplay_screen__GB4 PIN 473 TYPE 0 GENOME gameplay_screen__GB8 PIN 285
+INST gameplay_screen__GB8 PIN 244: INST gameplay_screen__GB4 PIN 495 TYPE 0 GENOME gameplay_screen__GB8 PIN 244
+INST gameplay_screen__GB8 PIN 245: INST gameplay_screen__GB4 PIN 496 TYPE 0 GENOME gameplay_screen__GB8 PIN 245
+INST gameplay_screen__GB8 PIN 246: INST gameplay_screen__GB4 PIN 497 TYPE 1 GENOME gameplay_screen__GB8 PIN 246
+INST gameplay_screen__GB8 PIN 247: INST gameplay_screen__GB4 PIN 498 TYPE 0 GENOME gameplay_screen__GB8 PIN 247
+INST gameplay_screen__GB8 PIN 248: INST gameplay_screen__GB4 PIN 499 TYPE 0 GENOME gameplay_screen__GB8 PIN 248
+INST gameplay_screen__GB8 PIN 249: INST gameplay_screen__GB4 PIN 500 TYPE 1 GENOME gameplay_screen__GB8 PIN 249
+INST gameplay_screen__GB8 PIN 250: INST gameplay_screen__GB4 PIN 501 TYPE 0 GENOME gameplay_screen__GB8 PIN 250
+INST gameplay_screen__GB8 PIN 251: INST gameplay_screen__GB4 PIN 502 TYPE 0 GENOME gameplay_screen__GB8 PIN 251
+INST gameplay_screen__GB8 PIN 252: INST gameplay_screen__GB4 PIN 503 TYPE 0 GENOME gameplay_screen__GB8 PIN 252
+INST gameplay_screen__GB8 PIN 253: INST gameplay_screen__GB4 PIN 504 TYPE 1 GENOME gameplay_screen__GB8 PIN 253
+INST gameplay_screen__GB8 PIN 220: INST gameplay_screen__GB4 PIN 505 TYPE 0 GENOME gameplay_screen__GB8 PIN 220
+INST gameplay_screen__GB8 PIN 221: INST gameplay_screen__GB4 PIN 506 TYPE 0 GENOME gameplay_screen__GB8 PIN 221
+INST gameplay_screen__GB8 PIN 222: INST gameplay_screen__GB4 PIN 507 TYPE 0 GENOME gameplay_screen__GB8 PIN 222
+INST gameplay_screen__GB8 PIN 223: INST gameplay_screen__GB4 PIN 508 TYPE 1 GENOME gameplay_screen__GB8 PIN 223
+INST gameplay_screen__GB8 PIN 224: INST gameplay_screen__GB4 PIN 509 TYPE 1 GENOME gameplay_screen__GB8 PIN 224
+INST gameplay_screen__GB8 PIN 225: INST gameplay_screen__GB4 PIN 510 TYPE 0 GENOME gameplay_screen__GB8 PIN 225
+INST gameplay_screen__GB8 PIN 226: INST gameplay_screen__GB4 PIN 511 TYPE 0 GENOME gameplay_screen__GB8 PIN 226
+INST gameplay_screen__GB8 PIN 227: INST gameplay_screen__GB4 PIN 512 TYPE 1 GENOME gameplay_screen__GB8 PIN 227
+INST gameplay_screen__GB8 PIN 228: INST gameplay_screen__GB4 PIN 513 TYPE 0 GENOME gameplay_screen__GB8 PIN 228
+INST gameplay_screen__GB8 PIN 229: INST gameplay_screen__GB4 PIN 514 TYPE 0 GENOME gameplay_screen__GB8 PIN 229
+INST gameplay_screen__GB8 PIN 266: INST gameplay_screen__GB4 PIN 525 TYPE 0 GENOME gameplay_screen__GB8 PIN 266
+INST gameplay_screen__GB8 PIN 267: INST gameplay_screen__GB4 PIN 526 TYPE 0 GENOME gameplay_screen__GB8 PIN 267
+INST gameplay_screen__GB8 PIN 268: INST gameplay_screen__GB4 PIN 527 TYPE 0 GENOME gameplay_screen__GB8 PIN 268
+INST gameplay_screen__GB8 PIN 269: INST gameplay_screen__GB4 PIN 528 TYPE 0 GENOME gameplay_screen__GB8 PIN 269
+INST gameplay_screen__GB8 PIN 270: INST gameplay_screen__GB4 PIN 529 TYPE 0 GENOME gameplay_screen__GB8 PIN 270
+INST gameplay_screen__GB8 PIN 271: INST gameplay_screen__GB4 PIN 530 TYPE 0 GENOME gameplay_screen__GB8 PIN 271
+INST gameplay_screen__GB8 PIN 272: INST gameplay_screen__GB4 PIN 531 TYPE 1 GENOME gameplay_screen__GB8 PIN 272
+INST gameplay_screen__GB8 PIN 273: INST gameplay_screen__GB4 PIN 532 TYPE 0 GENOME gameplay_screen__GB8 PIN 273
+INST gameplay_screen__GB8 PIN 274: INST gameplay_screen__GB4 PIN 533 TYPE 1 GENOME gameplay_screen__GB8 PIN 274
+INST gameplay_screen__GB8 PIN 275: INST gameplay_screen__GB4 PIN 534 TYPE 0 GENOME gameplay_screen__GB8 PIN 275
+INST gameplay_screen__GB8 PIN 160: GENOME gameplay_screen__GB8 PIN 160
+INST gameplay_screen__GB8 PIN 161: GENOME gameplay_screen__GB8 PIN 161
+INST gameplay_screen__GB8 PIN 162: GENOME gameplay_screen__GB8 PIN 162
+INST gameplay_screen__GB8 PIN 163: GENOME gameplay_screen__GB8 PIN 163
+INST gameplay_screen__GB8 PIN 164: GENOME gameplay_screen__GB8 PIN 164
+INST gameplay_screen__GB8 PIN 165: GENOME gameplay_screen__GB8 PIN 165
+INST gameplay_screen__GB8 PIN 166: GENOME gameplay_screen__GB8 PIN 166
+INST gameplay_screen__GB8 PIN 167: GENOME gameplay_screen__GB8 PIN 167
+INST gameplay_screen__GB8 PIN 168: GENOME gameplay_screen__GB8 PIN 168
+INST gameplay_screen__GB8 PIN 169: GENOME gameplay_screen__GB8 PIN 169
+INST gameplay_screen__GB8 PIN 170: GENOME gameplay_screen__GB8 PIN 170
+INST gameplay_screen__GB8 PIN 175: GENOME gameplay_screen__GB8 PIN 175
+INST gameplay_screen__GB8 PIN 176: GENOME gameplay_screen__GB8 PIN 176
+INST gameplay_screen__GB8 PIN 177: GENOME gameplay_screen__GB8 PIN 177
+INST gameplay_screen__GB8 PIN 178: GENOME gameplay_screen__GB8 PIN 178
+INST gameplay_screen__GB8 PIN 179: GENOME gameplay_screen__GB8 PIN 179
+INST gameplay_screen__GB8 PIN 180: GENOME gameplay_screen__GB8 PIN 180
+INST gameplay_screen__GB8 PIN 181: GENOME gameplay_screen__GB8 PIN 181
+INST gameplay_screen__GB8 PIN 182: GENOME gameplay_screen__GB8 PIN 182
+INST gameplay_screen__GB8 PIN 183: GENOME gameplay_screen__GB8 PIN 183
+INST gameplay_screen__GB8 PIN 184: GENOME gameplay_screen__GB8 PIN 184
+INST gameplay_screen__GB8 PIN 185: GENOME gameplay_screen__GB8 PIN 185
+INST gameplay_screen__GB8 PIN 298: GENOME gameplay_screen__GB8 PIN 298
+INST gameplay_screen__GB8 PIN 299: GENOME gameplay_screen__GB8 PIN 299
+INST gameplay_screen__GB8 PIN 300: GENOME gameplay_screen__GB8 PIN 300
+INST gameplay_screen__GB8 PIN 310: GENOME gameplay_screen__GB8 PIN 310
+INST gameplay_screen__GB8 PIN 311: GENOME gameplay_screen__GB8 PIN 311
+INST gameplay_screen__GB8 PIN 312: GENOME gameplay_screen__GB8 PIN 312
+INST gameplay_screen__GB8 PIN 322: GENOME gameplay_screen__GB8 PIN 322
+INST gameplay_screen__GB8 PIN 323: GENOME gameplay_screen__GB8 PIN 323
+INST gameplay_screen__GB8 PIN 324: GENOME gameplay_screen__GB8 PIN 324
+INST gameplay_screen__GB8 PIN 334: GENOME gameplay_screen__GB8 PIN 334
+INST gameplay_screen__GB8 PIN 335: GENOME gameplay_screen__GB8 PIN 335
+INST gameplay_screen__GB8 PIN 336: GENOME gameplay_screen__GB8 PIN 336
+INST gameplay_screen__GB8 PIN 346: GENOME gameplay_screen__GB8 PIN 346
+INST gameplay_screen__GB8 PIN 347: GENOME gameplay_screen__GB8 PIN 347
+INST gameplay_screen__GB8 PIN 348: GENOME gameplay_screen__GB8 PIN 348
+INST gameplay_screen__GB8 PIN 358: GENOME gameplay_screen__GB8 PIN 358
+INST gameplay_screen__GB8 PIN 359: GENOME gameplay_screen__GB8 PIN 359
+INST gameplay_screen__GB8 PIN 360: GENOME gameplay_screen__GB8 PIN 360
+INST gameplay_screen__GB8 PIN 370: GENOME gameplay_screen__GB8 PIN 370
+INST gameplay_screen__GB8 PIN 371: GENOME gameplay_screen__GB8 PIN 371
+INST gameplay_screen__GB8 PIN 372: GENOME gameplay_screen__GB8 PIN 372
+INST gameplay_screen__GB8 PIN 382: GENOME gameplay_screen__GB8 PIN 382
+INST gameplay_screen__GB8 PIN 383: GENOME gameplay_screen__GB8 PIN 383
+INST gameplay_screen__GB8 PIN 384: GENOME gameplay_screen__GB8 PIN 384
+INST top_level__GC0 PIN 102: GENOME top_level__GC0 PIN 102 INST top_level__GC0 PIN 38 TYPE 5
+INST top_level__GC0 PIN 38: GENOME top_level__GC0 PIN 38
+INST top_level__GC0 PIN 103: GENOME top_level__GC0 PIN 103 INST top_level__GC0 PIN 37 TYPE 5
+INST top_level__GC0 PIN 37: GENOME top_level__GC0 PIN 37
+INST top_level__GC0 PIN 104: GENOME top_level__GC0 PIN 104 INST top_level__GC0 PIN 39 TYPE 5
+INST top_level__GC0 PIN 39: GENOME top_level__GC0 PIN 39
+GENOME NON_GENOME PIN 38: GENOME NON_GENOME PIN 102
+GENOME NON_GENOME PIN 102: GENOME NON_GENOME PIN 38
+GENOME NON_GENOME PIN 37: GENOME NON_GENOME PIN 103
+GENOME NON_GENOME PIN 103: GENOME NON_GENOME PIN 37
+GENOME NON_GENOME PIN 39: GENOME NON_GENOME PIN 104
+GENOME NON_GENOME PIN 104: GENOME NON_GENOME PIN 39

@@ -1,0 +1,35 @@
+xilinx rtfpga
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[4][9][0]' (FDRE) to 'blues_y_reg[4][9][9]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[4][9][1]' (FDSE) to 'blues_y_reg[4][9][3]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[4][9][2]' (FDRE) to 'blues_y_reg[4][9][9]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\blues_y_reg[4][9][3] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[4][9][4]' (FDRE) to 'blues_y_reg[4][9][9]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[4][9][5]' (FDRE) to 'blues_y_reg[4][9][9]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[4][9][6]' (FDRE) to 'blues_y_reg[4][9][9]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[4][9][7]' (FDRE) to 'blues_y_reg[4][9][9]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[4][9][8]' (FDRE) to 'blues_y_reg[4][9][9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[4][9][9] )
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin O with 1st driver pin 'i_1/combined1_blue_inferredi_281/O' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin O with 2nd driver pin 'GND' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net O is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [11] with 1st driver pin 'i_1/combined1_blue_inferred__44i_487/O' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [11] with 2nd driver pin 'GND' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [11] is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [10] with 1st driver pin 'i_1/combined1_blue_inferred__44i_488/O' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [10] with 2nd driver pin 'GND' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [10] is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [9] with 1st driver pin 'i_1/combined1_blue_inferred__44i_489/O' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [9] with 2nd driver pin 'GND' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [9] is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [8] with 1st driver pin 'i_1/combined1_blue_inferred__44i_490/O' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [8] with 2nd driver pin 'GND' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [8] is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [7] with 1st driver pin 'i_1/combined1_blue_inferred__44i_491/O' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [7] with 2nd driver pin 'GND' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [7] is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [6] with 1st driver pin 'i_1/combined1_blue_inferred__44i_492/O' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [6] with 2nd driver pin 'GND' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [6] is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [5] with 1st driver pin 'i_1/combined1_blue_inferred__44i_493/O' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [5] with 2nd driver pin 'GND' [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net \genblk4[4].genblk1[4].combined1_blue_reg[4][0] [5] is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/Labs/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:345]

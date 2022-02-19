@@ -1,0 +1,66 @@
+xilinx rtfpga
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port shot_made5[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port shot_made5[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port shot_made3[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port shot_made4[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O130[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O130[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O131[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O132[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O134[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O141[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O141[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O142[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O142[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O143[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O143[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O147[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O147[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O153[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O153[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O153[7] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O154[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O154[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O155[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O155[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O155[7] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O156[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O156[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O157[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O158[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O158[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O160[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O160[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB3 has port O160[7] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][1][6]' (FDE) to 'reds_y_reg[0][1][2]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][1][5]' (FDE) to 'reds_y_reg[0][1][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][1][3]' (FDE) to 'reds_y_reg[0][1][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[0][1][4] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][0][7]' (FDE) to 'blues_y_reg[1][0][6]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][0][6]' (FDE) to 'blues_y_reg[1][0][3]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][0][5]' (FDE) to 'blues_y_reg[1][0][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][0][2]' (FDE) to 'blues_y_reg[1][0][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[1][0][4] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][5][7]' (FDE) to 'blues_y_reg[0][5][5]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][5][6]' (FDE) to 'blues_y_reg[0][5][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][5][2]' (FDE) to 'blues_y_reg[0][5][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][5][3]' (FDE) to 'blues_y_reg[0][5][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[0][5][4] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][1][7]' (FDE) to 'blues_y_reg[0][1][5]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][1][6]' (FDE) to 'blues_y_reg[0][1][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][1][2]' (FDE) to 'blues_y_reg[0][1][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][1][3]' (FDE) to 'blues_y_reg[0][1][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[0][1][4] )
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][7][6]' (FDE) to 'reds_y_reg[0][7][2]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][7][5]' (FDE) to 'reds_y_reg[0][7][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][7][3]' (FDE) to 'reds_y_reg[0][7][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[0][7][4] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][4][7]' (FDE) to 'blues_y_reg[0][4][5]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][4][6]' (FDE) to 'blues_y_reg[0][4][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][4][3]' (FDE) to 'blues_y_reg[0][4][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[0][4][2]' (FDE) to 'blues_y_reg[0][4][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[0][4][4] )
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][5][6]' (FDE) to 'reds_y_reg[0][5][2]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][5][5]' (FDE) to 'reds_y_reg[0][5][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][5][3]' (FDE) to 'reds_y_reg[0][5][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[0][5][4] )

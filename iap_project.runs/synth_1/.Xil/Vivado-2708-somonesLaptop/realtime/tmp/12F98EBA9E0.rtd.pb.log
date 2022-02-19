@@ -1,0 +1,37 @@
+xilinx rtfpga
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port shot_made3[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O221[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O221[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O221[7] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O222[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O222[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O222[7] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O225[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O225[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O225[7] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O226[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O226[8] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O226[7] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O227[9] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay_screen__GB6 has port O227[8] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][6][6]' (FDE) to 'reds_y_reg[1][6][5]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][6][5]' (FDE) to 'reds_y_reg[1][6][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][6][2]' (FDE) to 'reds_y_reg[1][6][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[1][6][3] )
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][8][6]' (FDE) to 'reds_y_reg[1][8][5]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][8][5]' (FDE) to 'reds_y_reg[1][8][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][8][2]' (FDE) to 'reds_y_reg[1][8][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[1][8][3] )
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][4][6]' (FDE) to 'reds_y_reg[1][4][5]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][4][5]' (FDE) to 'reds_y_reg[1][4][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[1][4][2]' (FDE) to 'reds_y_reg[1][4][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[1][4][3] )
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][2][7]' (FDE) to 'blues_y_reg[1][2][6]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][2][6]' (FDE) to 'blues_y_reg[1][2][3]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][2][5]' (FDE) to 'blues_y_reg[1][2][4]'
+INFO: [Synth 8-3886] merging instance 'blues_y_reg[1][2][3]' (FDE) to 'blues_y_reg[1][2][2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues_y_reg[1][2][4] )
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][6][6]' (FDE) to 'reds_y_reg[0][6][2]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][6][5]' (FDE) to 'reds_y_reg[0][6][4]'
+INFO: [Synth 8-3886] merging instance 'reds_y_reg[0][6][3]' (FDE) to 'reds_y_reg[0][6][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_y_reg[0][6][4] )

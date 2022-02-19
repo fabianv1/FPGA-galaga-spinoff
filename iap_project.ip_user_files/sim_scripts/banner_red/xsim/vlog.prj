@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../iap_project.srcs/sources_1/ip/banner_red/sim/banner_red.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

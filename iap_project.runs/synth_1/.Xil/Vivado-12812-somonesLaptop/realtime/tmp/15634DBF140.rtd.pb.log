@@ -1,0 +1,4 @@
+xilinx rtfpga
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'gameover_out_reg/Q' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:98]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:98]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:98]

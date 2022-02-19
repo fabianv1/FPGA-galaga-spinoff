@@ -1,0 +1,2292 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jan 26 20:27:22 2022
+# Process ID: 13140
+# Current directory: Z:/iap_project/iap_project.runs/synth_1
+# Command line: vivado.exe -log top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level.tcl
+# Log file: Z:/iap_project/iap_project.runs/synth_1/top_level.vds
+# Journal file: Z:/iap_project/iap_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace
+Command: synth_design -top top_level -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13820 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 826.719 ; gain = 233.516
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_level' [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:3]
+	Parameter START_SCREEN bound to: 3'b000 
+	Parameter GAMEPLAY_LVL_SCREEN bound to: 3'b001 
+	Parameter TRANSITION_SCREEN bound to: 3'b011 
+	Parameter PAUSE_SCREEN bound to: 3'b101 
+	Parameter GAMEOVER_SCREEN bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'display_8hex' [Z:/iap_project/iap_project.srcs/sources_1/new/support.sv:50]
+	Parameter bits bound to: 13 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'display_8hex' (2#1) [Z:/iap_project/iap_project.srcs/sources_1/new/support.sv:50]
+INFO: [Synth 8-6157] synthesizing module 'xvga' [Z:/iap_project/iap_project.srcs/sources_1/new/support.sv:149]
+	Parameter DISPLAY_WIDTH bound to: 1024 - type: integer 
+	Parameter DISPLAY_HEIGHT bound to: 768 - type: integer 
+	Parameter H_FP bound to: 24 - type: integer 
+	Parameter H_SYNC_PULSE bound to: 136 - type: integer 
+	Parameter H_BP bound to: 160 - type: integer 
+	Parameter V_FP bound to: 3 - type: integer 
+	Parameter V_SYNC_PULSE bound to: 6 - type: integer 
+	Parameter V_BP bound to: 29 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xvga' (3#1) [Z:/iap_project/iap_project.srcs/sources_1/new/support.sv:149]
+INFO: [Synth 8-6157] synthesizing module 'debounce' [Z:/iap_project/iap_project.srcs/sources_1/new/support.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (4#1) [Z:/iap_project/iap_project.srcs/sources_1/new/support.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'start_screen' [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:152]
+	Parameter FRAME_START bound to: 21'b000000000000000000000 
+	Parameter BANNER_X bound to: 11'b00001101111 
+	Parameter BANNER_Y bound to: 10'b0000000000 
+	Parameter INSTR_X bound to: 11'b00011011010 
+	Parameter INSTR_Y bound to: 10'b0110101110 
+	Parameter BUTTON_X bound to: 11'b00101011111 
+	Parameter BUTTON_Y bound to: 10'b1000111110 
+INFO: [Synth 8-6157] synthesizing module 'start_logo' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:69]
+	Parameter WIDTH bound to: 800 - type: integer 
+	Parameter HEIGHT bound to: 386 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'banner_rom' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/banner_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'banner_rom' (5#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/banner_rom_stub.v:6]
+WARNING: [Synth 8-689] width (4) of port connection 'douta' does not match port width (8) of module 'banner_rom' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:82]
+WARNING: [Synth 8-7023] instance 'rom1' of module 'banner_rom' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:82]
+INFO: [Synth 8-6157] synthesizing module 'banner_red' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/banner_red_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'banner_red' (6#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/banner_red_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rcm' of module 'banner_red' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:85]
+INFO: [Synth 8-6157] synthesizing module 'banner_green' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/banner_green_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'banner_green' (7#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/banner_green_stub.v:6]
+WARNING: [Synth 8-7023] instance 'gcm' of module 'banner_green' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:86]
+INFO: [Synth 8-6157] synthesizing module 'banner_blue' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/banner_blue_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'banner_blue' (8#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/banner_blue_stub.v:6]
+WARNING: [Synth 8-7023] instance 'bcm' of module 'banner_blue' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:87]
+INFO: [Synth 8-6155] done synthesizing module 'start_logo' (9#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:69]
+INFO: [Synth 8-6157] synthesizing module 'start_instructions' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:103]
+	Parameter WIDTH bound to: 587 - type: integer 
+	Parameter HEIGHT bound to: 100 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'instructions_rom' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/instructions_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'instructions_rom' (10#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/instructions_rom_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rom1' of module 'instructions_rom' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:117]
+INFO: [Synth 8-6157] synthesizing module 'instructions_map' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/instructions_map_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'instructions_map' (11#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/instructions_map_stub.v:6]
+WARNING: [Synth 8-7023] instance 'wcm' of module 'instructions_map' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:121]
+INFO: [Synth 8-6155] done synthesizing module 'start_instructions' (12#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:103]
+INFO: [Synth 8-6157] synthesizing module 'button_functions' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:137]
+	Parameter WIDTH bound to: 320 - type: integer 
+	Parameter HEIGHT bound to: 150 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'buttons_rom' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/buttons_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'buttons_rom' (13#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/buttons_rom_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rom1' of module 'buttons_rom' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:151]
+INFO: [Synth 8-6157] synthesizing module 'buttons_map' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/buttons_map_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'buttons_map' (14#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/buttons_map_stub.v:6]
+WARNING: [Synth 8-7023] instance 'wcm' of module 'buttons_map' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:155]
+INFO: [Synth 8-6155] done synthesizing module 'button_functions' (15#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:137]
+INFO: [Synth 8-6155] done synthesizing module 'start_screen' (16#1) [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:152]
+INFO: [Synth 8-6157] synthesizing module 'gameplay_screen' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:4]
+	Parameter FRAME_START bound to: 21'b000000000000000000000 
+	Parameter SHIP_SPEED bound to: 3'b101 
+	Parameter SHIP_X_START bound to: 11'b00111100110 
+	Parameter SHIP_Y bound to: 10'b1010110101 
+	Parameter SHOT_WIDTH bound to: 2'b11 
+	Parameter SHOT_SPEED bound to: 3'b101 
+	Parameter SHOT_Y_START bound to: 10'b1010110101 
+	Parameter SHOT_OFFSET bound to: 5'b11000 
+	Parameter ROW0_START_Y bound to: 10'b0000001010 
+	Parameter ROW1_START_Y bound to: 10'b0000110111 
+	Parameter ROW2_START_Y bound to: 10'b0001100100 
+	Parameter ROW3_START_Y bound to: 10'b0010010001 
+	Parameter ROW4_START_Y bound to: 10'b0010111110 
+	Parameter BLUE_START_X bound to: 11'b00000001111 
+	Parameter RED_START_X bound to: 11'b00000111100 
+	Parameter BUG_SIDE bound to: 5'b11110 
+INFO: [Synth 8-6157] synthesizing module 'blob' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:9]
+	Parameter WIDTH bound to: 2'b11 
+	Parameter HEIGHT bound to: 10 - type: integer 
+	Parameter COLOR bound to: 12'b111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'blob' (17#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'blob__parameterized0' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:9]
+	Parameter WIDTH bound to: 5'b11110 
+	Parameter HEIGHT bound to: 5'b11110 
+	Parameter COLOR bound to: 12'b000000001111 
+INFO: [Synth 8-6155] done synthesizing module 'blob__parameterized0' (17#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'blob__parameterized1' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:9]
+	Parameter WIDTH bound to: 5'b11110 
+	Parameter HEIGHT bound to: 5'b11110 
+	Parameter COLOR bound to: 12'b111100000000 
+INFO: [Synth 8-6155] done synthesizing module 'blob__parameterized1' (17#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:9]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:249]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:250]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:250]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:252]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:253]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:253]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:256]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:257]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:257]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:259]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:260]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:260]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:263]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:264]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:264]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:266]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:267]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:267]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:270]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:271]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:271]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:273]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:274]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:274]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:277]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:278]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:278]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:280]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:281]
+WARNING: [Synth 8-324] index 10 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:281]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:249]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:250]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:250]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:252]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:253]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:253]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:256]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:257]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:257]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:259]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:260]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:260]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:263]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:264]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:264]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:266]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:267]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:267]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:270]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:271]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:271]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:273]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:274]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:274]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:277]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:278]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:278]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:280]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:281]
+WARNING: [Synth 8-324] index 11 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:281]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:249]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:250]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:250]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:252]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:253]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:253]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:256]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:257]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:257]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:259]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:260]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:260]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:263]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:264]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:264]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:266]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:267]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:267]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:270]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:271]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:271]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:273]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:274]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:274]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:277]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:278]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:278]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:280]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:281]
+WARNING: [Synth 8-324] index 12 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:281]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:249]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:250]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:250]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:252]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:253]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:253]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:256]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:257]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:257]
+WARNING: [Synth 8-324] index 13 out of range [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:259]
+INFO: [Common 17-14] Message 'Synth 8-324' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6157] synthesizing module 'blob__parameterized2' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:9]
+	Parameter WIDTH bound to: 49 - type: integer 
+	Parameter HEIGHT bound to: 49 - type: integer 
+	Parameter COLOR bound to: 12'b111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'blob__parameterized2' (17#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'gameplay_screen' (18#1) [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'pause_screen' [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:205]
+	Parameter FRAME_START bound to: 21'b000000000000000000000 
+	Parameter PAUSE_X bound to: 11'b00011010011 
+	Parameter PAUSE_Y bound to: 10'b0100100101 
+INFO: [Synth 8-6157] synthesizing module 'pause_instructions' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:171]
+	Parameter WIDTH bound to: 600 - type: integer 
+	Parameter HEIGHT bound to: 180 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'pause_rom' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/pause_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pause_rom' (19#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/pause_rom_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rom1' of module 'pause_rom' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:185]
+INFO: [Synth 8-6157] synthesizing module 'pause_map' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/pause_map_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pause_map' (20#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/pause_map_stub.v:6]
+WARNING: [Synth 8-7023] instance 'wcm' of module 'pause_map' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:189]
+INFO: [Synth 8-6155] done synthesizing module 'pause_instructions' (21#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:171]
+INFO: [Synth 8-6155] done synthesizing module 'pause_screen' (22#1) [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:205]
+INFO: [Synth 8-6157] synthesizing module 'gameover_screen' [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:244]
+	Parameter FRAME_START bound to: 21'b000000000000000000000 
+	Parameter GAMEOVER_X bound to: 11'b00101010000 
+	Parameter GAMEOVER_Y bound to: 10'b0010011110 
+INFO: [Synth 8-6157] synthesizing module 'gameover_logo' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:206]
+	Parameter WIDTH bound to: 350 - type: integer 
+	Parameter HEIGHT bound to: 449 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gameover_rom' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/gameover_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'gameover_rom' (23#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/gameover_rom_stub.v:6]
+WARNING: [Synth 8-689] width (4) of port connection 'douta' does not match port width (8) of module 'gameover_rom' [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:219]
+WARNING: [Synth 8-7023] instance 'rom1' of module 'gameover_rom' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:219]
+INFO: [Synth 8-6157] synthesizing module 'gameover_red' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/gameover_red_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'gameover_red' (24#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/gameover_red_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rcm' of module 'gameover_red' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:222]
+INFO: [Synth 8-6157] synthesizing module 'gameover_green' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/gameover_green_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'gameover_green' (25#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/gameover_green_stub.v:6]
+WARNING: [Synth 8-7023] instance 'gcm' of module 'gameover_green' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:223]
+INFO: [Synth 8-6157] synthesizing module 'gameover_blue' [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/gameover_blue_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'gameover_blue' (26#1) [Z:/iap_project/iap_project.runs/synth_1/.Xil/Vivado-13140-somonesLaptop/realtime/gameover_blue_stub.v:6]
+WARNING: [Synth 8-7023] instance 'bcm' of module 'gameover_blue' has 5 connections declared, but only 3 given [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:224]
+INFO: [Synth 8-6155] done synthesizing module 'gameover_logo' (27#1) [Z:/iap_project/iap_project.srcs/sources_1/new/sprite_building.sv:206]
+INFO: [Synth 8-6155] done synthesizing module 'gameover_screen' (28#1) [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:244]
+INFO: [Synth 8-155] case statement is not full and has no default [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:97]
+INFO: [Synth 8-6155] done synthesizing module 'top_level' (29#1) [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:3]
+WARNING: [Synth 8-3331] design gameover_screen has unconnected port reset_in
+WARNING: [Synth 8-3331] design pause_screen has unconnected port reset_in
+WARNING: [Synth 8-3331] design start_screen has unconnected port reset_in
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.981 . Memory (MB): peak = 1940.332 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_divider'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_divider'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/banner_rom/banner_rom/banner_rom_in_context.xdc] for cell 's/gbanner/rom1'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/banner_rom/banner_rom/banner_rom_in_context.xdc] for cell 's/gbanner/rom1'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/banner_red/banner_red/banner_red_in_context.xdc] for cell 's/gbanner/rcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/banner_red/banner_red/banner_red_in_context.xdc] for cell 's/gbanner/rcm'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/banner_green/banner_green/banner_green_in_context.xdc] for cell 's/gbanner/gcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/banner_green/banner_green/banner_green_in_context.xdc] for cell 's/gbanner/gcm'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/banner_blue/banner_blue/banner_blue_in_context.xdc] for cell 's/gbanner/bcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/banner_blue/banner_blue/banner_blue_in_context.xdc] for cell 's/gbanner/bcm'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/instructions_map/instructions_map/instructions_map_in_context.xdc] for cell 's/nolabel_line185/wcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/instructions_map/instructions_map/instructions_map_in_context.xdc] for cell 's/nolabel_line185/wcm'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/buttons_rom/buttons_rom/buttons_rom_in_context.xdc] for cell 's/nolabel_line188/rom1'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/buttons_rom/buttons_rom/buttons_rom_in_context.xdc] for cell 's/nolabel_line188/rom1'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/buttons_map/buttons_map/buttons_map_in_context.xdc] for cell 's/nolabel_line188/wcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/buttons_map/buttons_map/buttons_map_in_context.xdc] for cell 's/nolabel_line188/wcm'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/pause_rom/pause_rom/pause_rom_in_context.xdc] for cell 'p/nolabel_line227/rom1'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/pause_rom/pause_rom/pause_rom_in_context.xdc] for cell 'p/nolabel_line227/rom1'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/pause_map/pause_map/pause_map_in_context.xdc] for cell 'p/nolabel_line227/wcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/pause_map/pause_map/pause_map_in_context.xdc] for cell 'p/nolabel_line227/wcm'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/instructions_rom/instructions_rom/instructions_rom_in_context.xdc] for cell 's/nolabel_line185/rom1'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/instructions_rom/instructions_rom/instructions_rom_in_context.xdc] for cell 's/nolabel_line185/rom1'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/gameover_rom/gameover_rom/gameover_rom_in_context.xdc] for cell 'go/nolabel_line266/rom1'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/gameover_rom/gameover_rom/gameover_rom_in_context.xdc] for cell 'go/nolabel_line266/rom1'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/gameover_red/gameover_red/gameover_red_in_context.xdc] for cell 'go/nolabel_line266/rcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/gameover_red/gameover_red/gameover_red_in_context.xdc] for cell 'go/nolabel_line266/rcm'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/gameover_green/gameover_green/gameover_green_in_context.xdc] for cell 'go/nolabel_line266/gcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/gameover_green/gameover_green/gameover_green_in_context.xdc] for cell 'go/nolabel_line266/gcm'
+Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/gameover_blue/gameover_blue/gameover_blue_in_context.xdc] for cell 'go/nolabel_line266/bcm'
+Finished Parsing XDC File [z:/iap_project/iap_project.srcs/sources_1/ip/gameover_blue/gameover_blue/gameover_blue_in_context.xdc] for cell 'go/nolabel_line266/bcm'
+Parsing XDC File [Z:/iap_project/iap_project.srcs/constrs_1/imports/nexys4_ddr_default.xdc]
+Finished Parsing XDC File [Z:/iap_project/iap_project.srcs/constrs_1/imports/nexys4_ddr_default.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [Z:/iap_project/iap_project.srcs/constrs_1/imports/nexys4_ddr_default.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_level_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1940.332 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.258 . Memory (MB): peak = 1940.332 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'go/nolabel_line266/bcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'go/nolabel_line266/gcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'go/nolabel_line266/rcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'go/nolabel_line266/rom1' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'p/nolabel_line227/rom1' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'p/nolabel_line227/wcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 's/gbanner/bcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 's/gbanner/gcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 's/gbanner/rcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 's/gbanner/rom1' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 's/nolabel_line185/rom1' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 's/nolabel_line185/wcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 's/nolabel_line188/rom1' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 's/nolabel_line188/wcm' at clock pin 'clka' is different from the actual clock period '15.385', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:07 ; elapsed = 00:01:08 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:07 ; elapsed = 00:01:08 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100mhz. (constraint file  z:/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100mhz. (constraint file  z:/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for clk_divider. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for s/gbanner/rom1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for s/gbanner/rcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for s/gbanner/gcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for s/gbanner/bcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for s/nolabel_line185/wcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for s/nolabel_line188/rom1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for s/nolabel_line188/wcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for p/nolabel_line227/rom1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for p/nolabel_line227/wcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for s/nolabel_line185/rom1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for go/nolabel_line266/rom1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for go/nolabel_line266/rcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for go/nolabel_line266/gcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for go/nolabel_line266/bcm. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:08 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[8][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[7][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[6][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[5][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[4][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[3][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[2][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[1][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'blues0_y_reg[0][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:104]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[9][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[8][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[7][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[6][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[5][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[4][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[3][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[2][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[1][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'reds0_y_reg[0][9:0]' into 'blues0_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:107]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[9][10:0]' into 'blues0_x_reg[9][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[8][10:0]' into 'blues0_x_reg[8][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[7][10:0]' into 'blues0_x_reg[7][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[6][10:0]' into 'blues0_x_reg[6][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[5][10:0]' into 'blues0_x_reg[5][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[4][10:0]' into 'blues0_x_reg[4][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[3][10:0]' into 'blues0_x_reg[3][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[2][10:0]' into 'blues0_x_reg[2][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[1][10:0]' into 'blues0_x_reg[1][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_x_reg[0][10:0]' into 'blues0_x_reg[0][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:110]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[8][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[7][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[6][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[5][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[4][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[3][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[2][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[1][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'blues1_y_reg[0][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:111]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[9][10:0]' into 'reds0_x_reg[9][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[8][10:0]' into 'reds0_x_reg[8][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[7][10:0]' into 'reds0_x_reg[7][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[6][10:0]' into 'reds0_x_reg[6][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[5][10:0]' into 'reds0_x_reg[5][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[4][10:0]' into 'reds0_x_reg[4][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[3][10:0]' into 'reds0_x_reg[3][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[2][10:0]' into 'reds0_x_reg[2][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[1][10:0]' into 'reds0_x_reg[1][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_x_reg[0][10:0]' into 'reds0_x_reg[0][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:113]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[9][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[8][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[7][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[6][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[5][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[4][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[3][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[2][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[1][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'reds1_y_reg[0][9:0]' into 'blues1_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:114]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[9][10:0]' into 'blues0_x_reg[9][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[8][10:0]' into 'blues0_x_reg[8][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[7][10:0]' into 'blues0_x_reg[7][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[6][10:0]' into 'blues0_x_reg[6][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[5][10:0]' into 'blues0_x_reg[5][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[4][10:0]' into 'blues0_x_reg[4][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[3][10:0]' into 'blues0_x_reg[3][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[2][10:0]' into 'blues0_x_reg[2][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[1][10:0]' into 'blues0_x_reg[1][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_x_reg[0][10:0]' into 'blues0_x_reg[0][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:117]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[8][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[7][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[6][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[5][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[4][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[3][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[2][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[1][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'blues2_y_reg[0][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:118]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[9][10:0]' into 'reds0_x_reg[9][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[8][10:0]' into 'reds0_x_reg[8][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[7][10:0]' into 'reds0_x_reg[7][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[6][10:0]' into 'reds0_x_reg[6][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[5][10:0]' into 'reds0_x_reg[5][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[4][10:0]' into 'reds0_x_reg[4][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[3][10:0]' into 'reds0_x_reg[3][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[2][10:0]' into 'reds0_x_reg[2][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[1][10:0]' into 'reds0_x_reg[1][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_x_reg[0][10:0]' into 'reds0_x_reg[0][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:120]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[9][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[8][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[7][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[6][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[5][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[4][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[3][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[2][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[1][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'reds2_y_reg[0][9:0]' into 'blues2_y_reg[9][9:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:121]
+INFO: [Synth 8-4471] merging register 'blues3_x_reg[9][10:0]' into 'blues0_x_reg[9][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:124]
+INFO: [Synth 8-4471] merging register 'blues3_x_reg[8][10:0]' into 'blues0_x_reg[8][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:124]
+INFO: [Synth 8-4471] merging register 'blues3_x_reg[7][10:0]' into 'blues0_x_reg[7][10:0]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:124]
+INFO: [Common 17-14] Message 'Synth 8-4471' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:376]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:376]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:376]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:376]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:376]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:370]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:370]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:370]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:370]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:370]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:363]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:363]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:363]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:363]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:363]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:357]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:357]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:357]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:357]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:357]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:350]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:350]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:350]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:350]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:350]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:344]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:344]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:344]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:344]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:344]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:337]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:337]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:337]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:337]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:337]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:331]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:331]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:331]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:331]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:331]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:324]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:324]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:324]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:324]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:324]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:318]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:318]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:318]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:318]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:318]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:300]
+INFO: [Synth 8-802] inferred FSM for state register 'game_state_reg' in module 'top_level'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            START_SCREEN |                               00 |                              000
+     GAMEPLAY_LVL_SCREEN |                               01 |                              001
+         GAMEOVER_SCREEN |                               10 |                              111
+            PAUSE_SCREEN |                               11 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'game_state_reg' using encoding 'sequential' in module 'top_level'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:15 ; elapsed = 00:02:17 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[10].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[10].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[10].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[10].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[11].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[11].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[11].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[11].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[11].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[12].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[12].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[12].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[12].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[12].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[13].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[13].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[13].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[13].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[13].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[14].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[14].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[14].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[14].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[14].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[15].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[15].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[15].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[15].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[15].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[16].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[16].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[16].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[16].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[16].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[17].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[17].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[17].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[17].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[17].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[18].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[18].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[18].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[18].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[18].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[19].blue0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[19].blue1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[19].blue2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[19].blue3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].blue0_i' (blob__parameterized0) to 'gp/genblk2[19].blue4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[10].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[10].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[10].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[10].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[11].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[11].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[11].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[11].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[11].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[12].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[12].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[12].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[12].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[12].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[13].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[13].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[13].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[13].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[13].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[14].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[14].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[14].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[14].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[14].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[15].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[15].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[15].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[15].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[15].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[16].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[16].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[16].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[16].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[16].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[17].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[17].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[17].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[17].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[17].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[18].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[18].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[18].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[18].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[18].red4_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[19].red0_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[19].red1_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[19].red2_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[19].red3_i'
+INFO: [Synth 8-223] decloning instance 'gp/genblk2[10].red0_i' (blob__parameterized1) to 'gp/genblk2[19].red4_i'
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |gameplay_screen__GB0  |           1|     57020|
+|2     |gameplay_screen__GB1  |           1|     16012|
+|3     |gameplay_screen__GB2  |           1|     18340|
+|4     |gameplay_screen__GB3  |           1|     23260|
+|5     |gameplay_screen__GB4  |           1|     24433|
+|6     |gameplay_screen__GB5  |           1|     46171|
+|7     |gameplay_screen__GB6  |           1|     39070|
+|8     |gameplay_screen__GB7  |           1|     26965|
+|9     |gameplay_screen__GB8  |           1|      7290|
+|10    |gameplay_screen__GB9  |           1|     25518|
+|11    |gameplay_screen__GB10 |           1|      6067|
+|12    |gameplay_screen__GB11 |           1|      7683|
+|13    |gameplay_screen__GB12 |           1|     14656|
+|14    |top_level__GC0        |           1|      4006|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     19 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 1     
+	   3 Input     17 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 2     
+	   3 Input     13 Bit       Adders := 6     
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 149   
+	 121 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 166   
+	   3 Input     11 Bit       Adders := 102   
+	   2 Input     10 Bit       Adders := 128   
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               12 Bit    Registers := 6     
+	               11 Bit    Registers := 42    
+	               10 Bit    Registers := 36    
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 21    
++---Muxes : 
+	 102 Input     32 Bit        Muxes := 19    
+	   2 Input     32 Bit        Muxes := 120   
+	   2 Input     20 Bit        Muxes := 43    
+	   4 Input     12 Bit        Muxes := 121   
+	   2 Input     12 Bit        Muxes := 5     
+	   2 Input     11 Bit        Muxes := 3     
+	   4 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 660   
+	  11 Input     10 Bit        Muxes := 180   
+	   5 Input     10 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 400   
+	   7 Input      1 Bit        Muxes := 400   
+	   8 Input      1 Bit        Muxes := 400   
+	   2 Input      1 Bit        Muxes := 2630  
+	 102 Input      1 Bit        Muxes := 39    
+	  11 Input      1 Bit        Muxes := 580   
+	   9 Input      1 Bit        Muxes := 400   
+	   6 Input      1 Bit        Muxes := 400   
+	  12 Input      1 Bit        Muxes := 200   
+	   5 Input      1 Bit        Muxes := 400   
+	   4 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top_level 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 4     
+Module blob__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__parameterized1__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__12 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__parameterized1__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__12 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__12 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__13 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__13 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__14 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__15 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__14 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__15 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__16 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__17 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__16 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__18 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__17 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__19 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__18 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__20 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__19 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__20 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__21 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__22 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__21 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__23 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__22 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__24 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__23 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__25 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__24 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__25 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__26 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__27 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__26 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__28 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__27 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__29 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__28 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__30 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__29 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__31 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__32 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__30 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__33 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__31 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__34 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__35 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__32 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__36 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__33 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__34 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__35 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__36 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__37 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__38 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__13 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__14 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__15 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__16 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__17 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__18 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__19 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+Module blob__parameterized0__37 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__39 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__38 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__40 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__41 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__39 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__42 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__40 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__41 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__43 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__44 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__45 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__46 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__47 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__42 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__48 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__43 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__49 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__44 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1__50 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__45 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__46 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__47 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__48 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__49 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0__50 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+Module blob__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     13 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+Module gameplay_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	 121 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 43    
+	   2 Input     10 Bit       Adders := 25    
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               11 Bit    Registers := 41    
+	               10 Bit    Registers := 35    
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	 102 Input     32 Bit        Muxes := 19    
+	   2 Input     32 Bit        Muxes := 120   
+	   2 Input     20 Bit        Muxes := 43    
+	   4 Input     12 Bit        Muxes := 120   
+	   2 Input     11 Bit        Muxes := 3     
+	   4 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 660   
+	  11 Input     10 Bit        Muxes := 180   
+	   5 Input     10 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 400   
+	   7 Input      1 Bit        Muxes := 400   
+	   8 Input      1 Bit        Muxes := 400   
+	   2 Input      1 Bit        Muxes := 2605  
+	 102 Input      1 Bit        Muxes := 39    
+	  11 Input      1 Bit        Muxes := 580   
+	   9 Input      1 Bit        Muxes := 400   
+	   6 Input      1 Bit        Muxes := 400   
+	  12 Input      1 Bit        Muxes := 200   
+	   5 Input      1 Bit        Muxes := 400   
+Module display_8hex 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+Module xvga 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module debounce__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module debounce__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module debounce__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module debounce__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module debounce 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module start_logo 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     19 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module start_instructions 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module button_functions 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module start_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+Module pause_instructions 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     17 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module gameover_logo 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP gbanner/image_addr, operation Mode is: C+A*(B:0x320).
+DSP Report: operator gbanner/image_addr is absorbed into DSP gbanner/image_addr.
+DSP Report: operator gbanner/image_addr0 is absorbed into DSP gbanner/image_addr.
+DSP Report: Generating DSP nolabel_line185/image_addr, operation Mode is: C+A*(B:0x24b).
+DSP Report: operator nolabel_line185/image_addr is absorbed into DSP nolabel_line185/image_addr.
+DSP Report: operator nolabel_line185/image_addr0 is absorbed into DSP nolabel_line185/image_addr.
+DSP Report: Generating DSP nolabel_line188/image_addr, operation Mode is: C+A*(B:0x140).
+DSP Report: operator nolabel_line188/image_addr is absorbed into DSP nolabel_line188/image_addr.
+DSP Report: operator nolabel_line188/image_addr0 is absorbed into DSP nolabel_line188/image_addr.
+DSP Report: Generating DSP nolabel_line227/image_addr, operation Mode is: C+A*(B:0x258).
+DSP Report: operator nolabel_line227/image_addr is absorbed into DSP nolabel_line227/image_addr.
+DSP Report: operator nolabel_line227/image_addr0 is absorbed into DSP nolabel_line227/image_addr.
+DSP Report: Generating DSP nolabel_line266/image_addr, operation Mode is: C+A*(B:0x15e).
+DSP Report: operator nolabel_line266/image_addr is absorbed into DSP nolabel_line266/image_addr.
+DSP Report: operator nolabel_line266/image_addr0 is absorbed into DSP nolabel_line266/image_addr.
+INFO: [Synth 8-3886] merging instance 'gpi_12/gameover_out_reg' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[0][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][8]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][7]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][6]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][5]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][1]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][2]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][3]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][4]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues3_y_reg[9][9]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][0]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][8]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][7]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][6]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][5]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][1]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][2]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][3]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][4]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues2_y_reg[9][9]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][8]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][7]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][6]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][5]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][1]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][2]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][3]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][4]' (FDSE) to 'gpi_12/blues0_x_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues1_y_reg[9][9]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][0]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/reds0_x_reg[9][0]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/reds0_x_reg[8][0]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[8][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[4][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/reds0_x_reg[4][0]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/reds0_x_reg[5][0]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][9]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][8]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][7]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][6]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][5]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][1]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][2]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][3]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][4]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[1][10]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][8]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][7]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][6]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][5]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][1]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][2]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][3]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][4]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_y_reg[9][9]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][9]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][8]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][7]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][6]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][5]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][1]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][2]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][3]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][4]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[9][10]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/reds0_x_reg[7][0]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][0]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][9]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][8]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][7]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][6]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][5]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][1]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][2]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][3]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][4]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[7][10]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][9]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][8]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][7]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][6]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][5]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][1]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][2]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][3]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][4]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[5][10]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[0][9]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[0][8]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[0][7]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[0][6]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[0][5]' (FDRE) to 'gpi_12/blues0_x_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[0][1]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'gpi_12/blues0_x_reg[0][2]' (FDSE) to 'gpi_12/blues0_x_reg[8][1]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (gpi_12/\reds0_x_reg[8][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gpi_12/\reds0_x_reg[8][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\blues0_x_reg[3][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues0_x_reg[3][10] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:14 ; elapsed = 00:03:18 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping	Report (see note below)
++-------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|start_logo         | C+A*(B:0x320) | 19     | 10     | 11     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|start_instructions | C+A*(B:0x24b) | 16     | 10     | 11     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|button_functions   | C+A*(B:0x140) | 16     | 9      | 11     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|pause_instructions | C+A*(B:0x258) | 17     | 10     | 11     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|gameover_logo      | C+A*(B:0x15e) | 18     | 9      | 11     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |gameplay_screen__GB0  |           1|      9577|
+|2     |gameplay_screen__GB1  |           1|      3667|
+|3     |gameplay_screen__GB2  |           1|      1800|
+|4     |gameplay_screen__GB3  |           1|       899|
+|5     |gameplay_screen__GB4  |           1|      3144|
+|6     |gameplay_screen__GB5  |           1|      6540|
+|7     |gameplay_screen__GB6  |           1|      3900|
+|8     |gameplay_screen__GB7  |           1|     22807|
+|9     |gameplay_screen__GB8  |           1|      2471|
+|10    |gameplay_screen__GB9  |           1|     16198|
+|11    |gameplay_screen__GB10 |           1|      2307|
+|12    |gameplay_screen__GB11 |           1|      2433|
+|13    |gameplay_screen__GB12 |           1|     10082|
+|14    |top_level__GC0        |           1|      1377|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:23 ; elapsed = 00:03:28 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:05:57 ; elapsed = 00:06:03 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |gameplay_screen__GB1 |           1|      3667|
+|2     |gameplay_screen__GB8 |           1|      1000|
+|3     |top_level_GT0        |           1|     29944|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'i_0/gameover_reg/Q' [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/iap_project/iap_project.srcs/sources_1/new/top_level.sv:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'i_0/i_10837/CO[1]' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:318]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:318]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [Z:/iap_project/iap_project.srcs/sources_1/new/gameplay.sv:318]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:06:00 ; elapsed = 00:06:26 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |gameplay_screen__GB1 |           1|      1385|
+|2     |gameplay_screen__GB8 |           1|      1400|
+|3     |top_level_GT0        |           1|     21954|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rom1  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/rcm  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/gcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/gcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/gcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/gcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/gcm  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/bcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/bcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/bcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/bcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/gbanner/bcm  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/rom1  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/rom1  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/rom1  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/rom1  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/wcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/wcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/wcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/wcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line185/wcm  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/rom1  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/rom1  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/rom1  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/rom1  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/wcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/wcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/wcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/wcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \s/nolabel_line188/wcm  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/rom1  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/rom1  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/rom1  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/rom1  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/wcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/wcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/wcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/wcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \p/nolabel_line227/wcm  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rom1  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/rcm  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/gcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/gcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/gcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/gcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/gcm  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/bcm  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/bcm  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/bcm  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/bcm  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \go/nolabel_line266/bcm  has unconnected pin dina[0]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:06:06 ; elapsed = 00:06:31 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:06:06 ; elapsed = 00:06:31 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:08 ; elapsed = 00:06:34 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:06:08 ; elapsed = 00:06:34 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:06:09 ; elapsed = 00:06:34 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:06:09 ; elapsed = 00:06:34 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |clk_wiz_0        |         1|
+|2     |gameover_rom     |         1|
+|3     |gameover_red     |         1|
+|4     |gameover_green   |         1|
+|5     |gameover_blue    |         1|
+|6     |pause_rom        |         1|
+|7     |pause_map        |         1|
+|8     |banner_rom       |         1|
+|9     |banner_red       |         1|
+|10    |banner_green     |         1|
+|11    |banner_blue      |         1|
+|12    |instructions_rom |         1|
+|13    |instructions_map |         1|
+|14    |buttons_rom      |         1|
+|15    |buttons_map      |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |banner_blue      |     1|
+|2     |banner_green     |     1|
+|3     |banner_red       |     1|
+|4     |banner_rom       |     1|
+|5     |buttons_map      |     1|
+|6     |buttons_rom      |     1|
+|7     |clk_wiz_0        |     1|
+|8     |gameover_blue    |     1|
+|9     |gameover_green   |     1|
+|10    |gameover_red     |     1|
+|11    |gameover_rom     |     1|
+|12    |instructions_map |     1|
+|13    |instructions_rom |     1|
+|14    |pause_map        |     1|
+|15    |pause_rom        |     1|
+|16    |CARRY4           |  3210|
+|17    |DSP48E1_1        |     1|
+|18    |DSP48E1_2        |     4|
+|19    |LUT1             |  2788|
+|20    |LUT2             |  8964|
+|21    |LUT3             |  1190|
+|22    |LUT4             |  2551|
+|23    |LUT5             |  1257|
+|24    |LUT6             |  3914|
+|25    |FDRE             |   772|
+|26    |FDSE             |   118|
+|27    |IBUF             |     5|
+|28    |OBUF             |    29|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+-------------------------+-------------------------+------+
+|      |Instance                 |Module                   |Cells |
++------+-------------------------+-------------------------+------+
+|1     |top                      |                         | 24865|
+|2     |  db0                    |debounce                 |   106|
+|3     |  db1                    |debounce_0               |    35|
+|4     |  db2                    |debounce_1               |    34|
+|5     |  db3                    |debounce_2               |    34|
+|6     |  db4                    |debounce_3               |    36|
+|7     |  display                |display_8hex             |    48|
+|8     |  go                     |gameover_screen          |    50|
+|9     |    nolabel_line266      |gameover_logo            |    50|
+|10    |  gp                     |gameplay_screen          | 21114|
+|11    |    \genblk1[0].shoti    |blob                     |    43|
+|12    |    \genblk1[10].shoti   |blob_4                   |    52|
+|13    |    \genblk1[11].shoti   |blob_5                   |    38|
+|14    |    \genblk1[12].shoti   |blob_6                   |    39|
+|15    |    \genblk1[13].shoti   |blob_7                   |    42|
+|16    |    \genblk1[14].shoti   |blob_8                   |    39|
+|17    |    \genblk1[15].shoti   |blob_9                   |    48|
+|18    |    \genblk1[16].shoti   |blob_10                  |    49|
+|19    |    \genblk1[17].shoti   |blob_11                  |    38|
+|20    |    \genblk1[18].shoti   |blob_12                  |    46|
+|21    |    \genblk1[19].shoti   |blob_13                  |    49|
+|22    |    \genblk1[1].shoti    |blob_14                  |    46|
+|23    |    \genblk1[2].shoti    |blob_15                  |    51|
+|24    |    \genblk1[3].shoti    |blob_16                  |    62|
+|25    |    \genblk1[4].shoti    |blob_17                  |    63|
+|26    |    \genblk1[5].shoti    |blob_18                  |    50|
+|27    |    \genblk1[6].shoti    |blob_19                  |    55|
+|28    |    \genblk1[7].shoti    |blob_20                  |    52|
+|29    |    \genblk1[8].shoti    |blob_21                  |    51|
+|30    |    \genblk1[9].shoti    |blob_22                  |    63|
+|31    |    \genblk2[0].blue0_i  |blob__parameterized0     |    17|
+|32    |    \genblk2[0].blue1_i  |blob__parameterized0_23  |    17|
+|33    |    \genblk2[0].blue2_i  |blob__parameterized0_24  |    17|
+|34    |    \genblk2[0].blue3_i  |blob__parameterized0_25  |    17|
+|35    |    \genblk2[0].blue4_i  |blob__parameterized0_26  |    15|
+|36    |    \genblk2[0].red0_i   |blob__parameterized1     |    14|
+|37    |    \genblk2[0].red1_i   |blob__parameterized1_27  |    12|
+|38    |    \genblk2[0].red2_i   |blob__parameterized1_28  |    12|
+|39    |    \genblk2[0].red3_i   |blob__parameterized1_29  |    10|
+|40    |    \genblk2[0].red4_i   |blob__parameterized1_30  |    12|
+|41    |    \genblk2[1].blue0_i  |blob__parameterized0_31  |    11|
+|42    |    \genblk2[1].blue1_i  |blob__parameterized0_32  |    14|
+|43    |    \genblk2[1].blue2_i  |blob__parameterized0_33  |    11|
+|44    |    \genblk2[1].blue3_i  |blob__parameterized0_34  |    16|
+|45    |    \genblk2[1].blue4_i  |blob__parameterized0_35  |    14|
+|46    |    \genblk2[1].red0_i   |blob__parameterized1_36  |    11|
+|47    |    \genblk2[1].red1_i   |blob__parameterized1_37  |    11|
+|48    |    \genblk2[1].red2_i   |blob__parameterized1_38  |    16|
+|49    |    \genblk2[1].red3_i   |blob__parameterized1_39  |     7|
+|50    |    \genblk2[1].red4_i   |blob__parameterized1_40  |     8|
+|51    |    \genblk2[2].blue0_i  |blob__parameterized0_41  |    12|
+|52    |    \genblk2[2].blue1_i  |blob__parameterized0_42  |     8|
+|53    |    \genblk2[2].blue2_i  |blob__parameterized0_43  |    12|
+|54    |    \genblk2[2].blue3_i  |blob__parameterized0_44  |     8|
+|55    |    \genblk2[2].blue4_i  |blob__parameterized0_45  |     8|
+|56    |    \genblk2[2].red0_i   |blob__parameterized1_46  |    14|
+|57    |    \genblk2[2].red1_i   |blob__parameterized1_47  |    10|
+|58    |    \genblk2[2].red2_i   |blob__parameterized1_48  |    13|
+|59    |    \genblk2[2].red3_i   |blob__parameterized1_49  |    14|
+|60    |    \genblk2[2].red4_i   |blob__parameterized1_50  |     8|
+|61    |    \genblk2[3].blue0_i  |blob__parameterized0_51  |    11|
+|62    |    \genblk2[3].blue1_i  |blob__parameterized0_52  |     7|
+|63    |    \genblk2[3].blue2_i  |blob__parameterized0_53  |    11|
+|64    |    \genblk2[3].blue3_i  |blob__parameterized0_54  |     9|
+|65    |    \genblk2[3].blue4_i  |blob__parameterized0_55  |     7|
+|66    |    \genblk2[3].red0_i   |blob__parameterized1_56  |    12|
+|67    |    \genblk2[3].red1_i   |blob__parameterized1_57  |    10|
+|68    |    \genblk2[3].red2_i   |blob__parameterized1_58  |    11|
+|69    |    \genblk2[3].red3_i   |blob__parameterized1_59  |    12|
+|70    |    \genblk2[3].red4_i   |blob__parameterized1_60  |    12|
+|71    |    \genblk2[4].blue0_i  |blob__parameterized0_61  |    12|
+|72    |    \genblk2[4].blue1_i  |blob__parameterized0_62  |    12|
+|73    |    \genblk2[4].blue2_i  |blob__parameterized0_63  |    12|
+|74    |    \genblk2[4].blue3_i  |blob__parameterized0_64  |    12|
+|75    |    \genblk2[4].blue4_i  |blob__parameterized0_65  |    12|
+|76    |    \genblk2[4].red0_i   |blob__parameterized1_66  |    12|
+|77    |    \genblk2[4].red1_i   |blob__parameterized1_67  |    13|
+|78    |    \genblk2[4].red2_i   |blob__parameterized1_68  |    12|
+|79    |    \genblk2[4].red3_i   |blob__parameterized1_69  |    12|
+|80    |    \genblk2[4].red4_i   |blob__parameterized1_70  |    13|
+|81    |    \genblk2[5].blue0_i  |blob__parameterized0_71  |    11|
+|82    |    \genblk2[5].blue1_i  |blob__parameterized0_72  |    11|
+|83    |    \genblk2[5].blue2_i  |blob__parameterized0_73  |    11|
+|84    |    \genblk2[5].blue3_i  |blob__parameterized0_74  |    11|
+|85    |    \genblk2[5].blue4_i  |blob__parameterized0_75  |    11|
+|86    |    \genblk2[5].red0_i   |blob__parameterized1_76  |    11|
+|87    |    \genblk2[5].red1_i   |blob__parameterized1_77  |    11|
+|88    |    \genblk2[5].red2_i   |blob__parameterized1_78  |    14|
+|89    |    \genblk2[5].red3_i   |blob__parameterized1_79  |    11|
+|90    |    \genblk2[5].red4_i   |blob__parameterized1_80  |    66|
+|91    |    \genblk2[6].blue0_i  |blob__parameterized0_81  |    13|
+|92    |    \genblk2[6].blue1_i  |blob__parameterized0_82  |    16|
+|93    |    \genblk2[6].blue2_i  |blob__parameterized0_83  |    13|
+|94    |    \genblk2[6].blue3_i  |blob__parameterized0_84  |    16|
+|95    |    \genblk2[6].blue4_i  |blob__parameterized0_85  |   336|
+|96    |    \genblk2[6].red0_i   |blob__parameterized1_86  |    18|
+|97    |    \genblk2[6].red1_i   |blob__parameterized1_87  |    14|
+|98    |    \genblk2[6].red2_i   |blob__parameterized1_88  |    13|
+|99    |    \genblk2[6].red3_i   |blob__parameterized1_89  |    18|
+|100   |    \genblk2[6].red4_i   |blob__parameterized1_90  |    16|
+|101   |    \genblk2[7].blue0_i  |blob__parameterized0_91  |    15|
+|102   |    \genblk2[7].blue1_i  |blob__parameterized0_92  |    19|
+|103   |    \genblk2[7].blue2_i  |blob__parameterized0_93  |    19|
+|104   |    \genblk2[7].blue3_i  |blob__parameterized0_94  |    20|
+|105   |    \genblk2[7].blue4_i  |blob__parameterized0_95  |    19|
+|106   |    \genblk2[7].red0_i   |blob__parameterized1_96  |    18|
+|107   |    \genblk2[7].red1_i   |blob__parameterized1_97  |    17|
+|108   |    \genblk2[7].red2_i   |blob__parameterized1_98  |    18|
+|109   |    \genblk2[7].red3_i   |blob__parameterized1_99  |    17|
+|110   |    \genblk2[7].red4_i   |blob__parameterized1_100 |    16|
+|111   |    \genblk2[8].blue0_i  |blob__parameterized0_101 |    15|
+|112   |    \genblk2[8].blue1_i  |blob__parameterized0_102 |    15|
+|113   |    \genblk2[8].blue2_i  |blob__parameterized0_103 |    15|
+|114   |    \genblk2[8].blue3_i  |blob__parameterized0_104 |    15|
+|115   |    \genblk2[8].blue4_i  |blob__parameterized0_105 |    15|
+|116   |    \genblk2[8].red0_i   |blob__parameterized1_106 |    12|
+|117   |    \genblk2[8].red1_i   |blob__parameterized1_107 |    13|
+|118   |    \genblk2[8].red2_i   |blob__parameterized1_108 |    16|
+|119   |    \genblk2[8].red3_i   |blob__parameterized1_109 |    15|
+|120   |    \genblk2[8].red4_i   |blob__parameterized1_110 |    12|
+|121   |    \genblk2[9].blue0_i  |blob__parameterized0_111 |    11|
+|122   |    \genblk2[9].blue1_i  |blob__parameterized0_112 |    11|
+|123   |    \genblk2[9].blue2_i  |blob__parameterized0_113 |    11|
+|124   |    \genblk2[9].blue3_i  |blob__parameterized0_114 |    11|
+|125   |    \genblk2[9].blue4_i  |blob__parameterized0_115 |    11|
+|126   |    \genblk2[9].red0_i   |blob__parameterized1_116 |   152|
+|127   |    \genblk2[9].red1_i   |blob__parameterized1_117 |    52|
+|128   |    \genblk2[9].red2_i   |blob__parameterized1_118 |    11|
+|129   |    \genblk2[9].red3_i   |blob__parameterized1_119 |    11|
+|130   |    \genblk2[9].red4_i   |blob__parameterized1_120 |    11|
+|131   |    ship                 |blob__parameterized2     |    45|
+|132   |  p                      |pause_screen             |    31|
+|133   |    nolabel_line227      |pause_instructions       |    31|
+|134   |  s                      |start_screen             |   134|
+|135   |    gbanner              |start_logo               |    56|
+|136   |    nolabel_line185      |start_instructions       |    45|
+|137   |    nolabel_line188      |button_functions         |    26|
+|138   |  xvga1                  |xvga                     |  3176|
++------+-------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:06:09 ; elapsed = 00:06:34 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 81 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:05:09 ; elapsed = 00:06:22 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+Synthesis Optimization Complete : Time (s): cpu = 00:06:09 ; elapsed = 00:06:35 . Memory (MB): peak = 1940.332 ; gain = 1347.129
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.317 . Memory (MB): peak = 1940.332 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3215 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1940.332 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+445 Infos, 133 Warnings, 81 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:06:16 ; elapsed = 00:06:43 . Memory (MB): peak = 1940.332 ; gain = 1642.004
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1940.332 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'Z:/iap_project/iap_project.runs/synth_1/top_level.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_level_utilization_synth.rpt -pb top_level_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 26 20:34:11 2022...

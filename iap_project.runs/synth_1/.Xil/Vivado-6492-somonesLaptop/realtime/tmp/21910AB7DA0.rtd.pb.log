@@ -1,0 +1,12 @@
+xilinx rtfpga
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][0]' (FDRE) to 'reds_x_reg[4][9][10]'
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][1]' (FDRE) to 'reds_x_reg[4][9][10]'
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][2]' (FDSE) to 'reds_x_reg[4][9][8]'
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][3]' (FDRE) to 'reds_x_reg[4][9][10]'
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][4]' (FDRE) to 'reds_x_reg[4][9][10]'
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][5]' (FDSE) to 'reds_x_reg[4][9][8]'
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][6]' (FDRE) to 'reds_x_reg[4][9][10]'
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][7]' (FDSE) to 'reds_x_reg[4][9][8]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\reds_x_reg[4][9][8] )
+INFO: [Synth 8-3886] merging instance 'reds_x_reg[4][9][9]' (FDRE) to 'reds_x_reg[4][9][10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reds_x_reg[4][9][10] )

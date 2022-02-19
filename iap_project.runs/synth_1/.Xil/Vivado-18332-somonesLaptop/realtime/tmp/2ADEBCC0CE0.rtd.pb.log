@@ -1,0 +1,21 @@
+xilinx rtfpga
+INFO: [Synth 8-3886] merging instance 'blues3_y_reg[9][0]' (FDSE) to 'blues2_y_reg[9][2]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][0]' (FDRE) to 'blues2_y_reg[9][1]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][1]' (FDRE) to 'blues2_y_reg[9][3]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][2]' (FDSE) to 'blues2_y_reg[9][5]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][3]' (FDRE) to 'blues2_y_reg[9][4]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][4]' (FDRE) to 'blues2_y_reg[9][7]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][5]' (FDSE) to 'blues2_y_reg[9][6]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][6]' (FDSE) to 'blues3_y_reg[9][7]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][7]' (FDRE) to 'blues2_y_reg[9][8]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][8]' (FDRE) to 'blues2_y_reg[9][9]'
+INFO: [Synth 8-3886] merging instance 'blues2_y_reg[9][9]' (FDRE) to 'blues3_y_reg[9][9]'
+INFO: [Synth 8-3886] merging instance 'blues3_y_reg[9][8]' (FDRE) to 'blues3_y_reg[9][9]'
+INFO: [Synth 8-3886] merging instance 'blues3_y_reg[9][7]' (FDSE) to 'blues3_y_reg[9][4]'
+INFO: [Synth 8-3886] merging instance 'blues3_y_reg[9][6]' (FDRE) to 'blues3_y_reg[9][9]'
+INFO: [Synth 8-3886] merging instance 'blues3_y_reg[9][5]' (FDRE) to 'blues3_y_reg[9][9]'
+INFO: [Synth 8-3886] merging instance 'blues3_y_reg[9][1]' (FDRE) to 'blues3_y_reg[9][9]'
+INFO: [Synth 8-3886] merging instance 'blues3_y_reg[9][2]' (FDRE) to 'blues3_y_reg[9][9]'
+INFO: [Synth 8-3886] merging instance 'blues3_y_reg[9][3]' (FDRE) to 'blues3_y_reg[9][9]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\blues3_y_reg[9][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\blues3_y_reg[9][9] )

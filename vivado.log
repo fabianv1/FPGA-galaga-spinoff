@@ -1,0 +1,335 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jan 29 12:26:14 2022
+# Process ID: 1012
+# Current directory: Z:/Labs/iap_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16864 Z:\Labs\iap_project\iap_project.xpr
+# Log file: Z:/Labs/iap_project/vivado.log
+# Journal file: Z:/Labs/iap_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Z:/Labs/iap_project/iap_project.xpr
+INFO: [Project 1-313] Project file moved from 'Z:/iap_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 836.773 ; gain = 126.734
+update_compile_order -fileset sources_1
+reset_run impl_1
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.dcp' for cell 'clk_divider'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/gameover_blue/gameover_blue.dcp' for cell 'go/nolabel_line266/go_bcm'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/gameover_green/gameover_green.dcp' for cell 'go/nolabel_line266/go_gcm'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/gameover_red/gameover_red.dcp' for cell 'go/nolabel_line266/go_rcm'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/gameover_rom/gameover_rom.dcp' for cell 'go/nolabel_line266/go_rom'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/grey_map/grey_map.dcp' for cell 'p/nolabel_line227/p_cm'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/pause_rom/pause_rom.dcp' for cell 'p/nolabel_line227/p_rom'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/banner_blue/banner_blue.dcp' for cell 's/gbanner/b_bcm'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/banner_green/banner_green.dcp' for cell 's/gbanner/b_gcm'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/banner_red/banner_red.dcp' for cell 's/gbanner/b_rcm'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/banner_rom/banner_rom.dcp' for cell 's/gbanner/b_rom'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/instructions_rom/instructions_rom.dcp' for cell 's/nolabel_line185/s_instr_rom'
+INFO: [Project 1-454] Reading design checkpoint 'z:/Labs/iap_project/iap_project.srcs/sources_1/ip/buttons_rom/buttons_rom.dcp' for cell 's/nolabel_line188/b_funcs_rom'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.804 . Memory (MB): peak = 1357.781 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9831 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'top_level' is not ideal for floorplanning, since the cellview 'gameplay_screen' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [z:/Labs/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0_board.xdc] for cell 'clk_divider/inst'
+Finished Parsing XDC File [z:/Labs/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0_board.xdc] for cell 'clk_divider/inst'
+Parsing XDC File [z:/Labs/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc] for cell 'clk_divider/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [z:/Labs/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [z:/Labs/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2160.309 ; gain = 630.523
+Finished Parsing XDC File [z:/Labs/iap_project/iap_project.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc] for cell 'clk_divider/inst'
+Parsing XDC File [Z:/Labs/iap_project/iap_project.srcs/constrs_1/imports/nexys4_ddr_default.xdc]
+Finished Parsing XDC File [Z:/Labs/iap_project/iap_project.srcs/constrs_1/imports/nexys4_ddr_default.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2160.309 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 2161.422 ; gain = 960.234
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sat Jan 29 14:44:22 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 14:44:22 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+close_design
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 16:19:09 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 16:19:09 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.293 . Memory (MB): peak = 2161.422 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3333 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2161.422 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2161.422 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2161.422 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2194.398 ; gain = 32.977
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-00:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2372.309 ; gain = 15.840
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AE3CB9A
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 17:13:22 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 17:13:22 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 17:25:29 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 17:25:29 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 17:59:10 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 17:59:31 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 17:59:31 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 18:22:17 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 18:22:17 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 18:34:48 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 18:34:48 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 18:45:57 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 18:45:57 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 18:46:40 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 18:46:40 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 19:00:14 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 19:00:14 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 20:51:45 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 20:51:45 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 21:08:26 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 21:08:26 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 21:20:09 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 21:20:09 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Labs/iap_project/iap_project.runs/impl_1/top_level.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jan 29 21:36:09 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sat Jan 29 21:36:09 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292AE3CB9A
+reset_run synth_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_hw_manager
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 30 01:35:58 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sun Jan 30 01:35:58 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 30 02:04:50 2022] Launched synth_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/synth_1/runme.log
+[Sun Jan 30 02:04:50 2022] Launched impl_1...
+Run output will be captured here: Z:/Labs/iap_project/iap_project.runs/impl_1/runme.log
+open_hw_manager
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.303 . Memory (MB): peak = 4556.129 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4417 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'top_level' is not ideal for floorplanning, since the cellview 'gameplay_screen' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 4556.129 ; gain = 0.000
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 4556.129 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 4556.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 4556.129 ; gain = 0.000
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 4556.129 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 30 02:24:39 2022...
